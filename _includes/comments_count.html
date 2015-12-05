@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    var disqus_shortname  = '{{ site.disqus_shortname }}';
+    var disqus_identifier = '{{ page.id }}';
+    var disqus_title      = '{{ page.title }}';
+          
+    (function () {
+    
+      var countScript = document.createElement('script');
+      countScript.type = 'text/javascript';
+      countScript.async = true;
+      countScript.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(countScript);
+    }());
+</script>
