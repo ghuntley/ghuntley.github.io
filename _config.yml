@@ -1,26 +1,29 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
-date_format: "%b %-d, %Y"
+title:        Geoffrey Huntley
+email:        ghuntley@ghuntley.com
+author:       Geoffrey Huntley
+description:  "Geoffrey Huntley's Blog"
+baseurl:      ""
+url:          "https://ghuntley.com"
+repo_url:     "https://github.com/ghuntley/ghuntley.github.io"
+gravatar_url: "http://www.gravatar.com/avatar/23d4d2451f74764e095f15a739b68a4e"
+date_format:  "%b %-d, %Y"
+
+
 
 # Google services
-google_analytics:
-google_verification:
+google_analytics:     "UA-19258717-2"
+google_verification:  "Ygi199GbO9ipejg0519FZUH5JVbWB_qIS9JOke_ulp8"
 
 # Optional features
 animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+show_related_posts:   true
+show_post_footers:    true
 ajaxify_contact_form: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: ghuntley
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -29,12 +32,12 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: ghuntley
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: geoffreyhuntley
 google_plus_id:
-linkedin_username:
+linkedin_username: geoffreyhuntley
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -42,24 +45,32 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
-share_text: 'Share this post!'
+show_sharing_icons: true
+share_text: "Share this post!"
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
-share_reddit: false
+share_reddit: true
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 # Build settings
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
+permalink:    "/archive/:year/:month/:day/:title/"
+paginate:     10
+paginate_path: "page/:num"
+category_dir: categories
 sass:
   compressed: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
