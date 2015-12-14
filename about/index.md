@@ -4,7 +4,7 @@ title: About Geoffrey Huntley
 permalink: /about/
 ---
 
-Hi, my name is Geoffrey Huntley, infrastructure #devopsec polyglot & software developer, co-founder of [Sydney Gamers League](/portfolio/sydney-gamers-league/) and the creator of the first [disaster/humanitarian video blog](/portfolio/waveofdestruction/) that on the day of the [boxing day tsunami](https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami) the world turned to for up-to-date information. I have also cycled through various countries on a unicycle.
+Hi, my name is Geoffrey Huntley, infrastructure #devopsec polyglot & software developer, co-founder of [Sydney Gamers League](/portfolio/sydney-gamers-league/) and the creator of the first [disaster/humanitarian video blog](/portfolio/waveofdestruction/) that on the day of the boxing day tsunami the world turned to for up-to-date information. I have also cycled through various countries on a unicycle.
 
 ![](/about/me.jpg)
 
