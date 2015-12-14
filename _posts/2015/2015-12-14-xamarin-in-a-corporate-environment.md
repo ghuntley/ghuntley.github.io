@@ -44,4 +44,4 @@ When I need direct internet access on the virtual machine then that is achieved 
 
 This setup allows the best of both worlds, simultaneous direct internet access and access to corporate resources such as bug trackers, source control, email, intranet and timesheet systems.
 
-I find some form of direct internet connectivity is an absolute must when doing mobile development otherwise productivty tends to go out the window. If you are in the unfortunate circumstance whereby you have to use a Windows NTLM based authentication proxy server on Mac OSX then I suggest reading this article for a solution. 
+I find some form of direct internet connectivity is an absolute must when doing mobile development otherwise productivty tends to go out the window. If you are in the unfortunate circumstance whereby you have to use a Windows NTLM based authentication proxy server on Mac OSX then I suggest reading [this article for a solution](/archive/2015/12/15/to-view-this-page-you-need-to-login-to-the-proxy-server/). 
