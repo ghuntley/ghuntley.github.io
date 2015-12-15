@@ -18,7 +18,7 @@ Luckily, thanks to the magic powers of open-source software there's a solution!
 
     # brew install cntlm
 
-Next step is to generate a encrypted NTLMv2 hash which will be used instead storing your password in plain text.
+Next step is to generate a encrypted `NTLMv2` hash which will be used instead storing your password in plain text.
 
     # cntlm -H -c /usr/local/etc/cntlm.conf 
     
@@ -30,25 +30,25 @@ Next step is to generate a encrypted NTLMv2 hash which will be used instead stor
 Edit the configuration file at ```/usr/local/etc/cntlm.conf```:
 
     Domain          $domainname
-    Username	    $username
+    Username        $username
 
     PassNTLMv2      $passNTLMv2
     Auth            NTLMv2
 
     # upstream proxy server hostname and port (hostname:port)
-    Proxy		proxy.example.com:8080 
+    Proxy           proxy.example.com:8080 
 
     # destinations which are not routed to the upstream proxy server.
-    NoProxy		localhost, 127.0.0.*, 10.*, 192.168.*
+    NoProxy         localhost, 127.0.0.*, 10.*, 192.168.*
 
     # which TCP port to bind on
-    Listen		3128
+    Listen          3128
 
     # bind to all network interfaces (yes) or bind to loopback (no)
-    Gateway	yes
+    Gateway         yes
 
     # ACL of addresses allowed to connect through the proxy
-    Allow		127.0.0.1
+    Allow           127.0.0.1
     
 Replace `$username`, `$passNTLMv2`,`$domain` and configure the `NoProxy` and `Proxy` stanza's as appropriate.
 
