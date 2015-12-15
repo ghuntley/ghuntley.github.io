@@ -2,7 +2,7 @@
 layout:     post
 title:      Xamarin In A Corporate Environment
 date:       2015-12-14
-summary:    Stuck doing Xamarin development in a windows only corporate environment on a MacBook? Here's how you can make the best out of bad situation.
+summary:    Stuck doing Xamarin development in a windows only corporate environment on a MacBook? Here's how you can make the best out of a bad situation.
 categories: xamarin corporate soe virtual-machine windows visual-studio xamarin-studio vmware-workstation
 ---
 
