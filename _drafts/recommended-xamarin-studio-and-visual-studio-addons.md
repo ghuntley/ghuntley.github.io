@@ -30,6 +30,11 @@ https://www.jetbrains.com/dotmemory/
 CodeMaid - CodeMaid is an open source Visual Studio extension to cleanup, dig through and simplify our C#, C++, F#, VB, PHP, PowerShell, JSON, XAML, XML, ASP, HTML, CSS, LESS, SCSS, JavaScript and TypeScript coding.
 https://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496
 
+Rebracer - Saves editor formatting settings as part of each solution.
+https://visualstudiogallery.msdn.microsoft.com/410e9b9f-65f3-4495-b68e-15567e543c58
+
+
+
 VSColorOutput - Color output for build and debug windows.
 https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496
 
