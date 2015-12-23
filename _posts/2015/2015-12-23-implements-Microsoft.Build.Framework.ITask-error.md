@@ -8,7 +8,7 @@ categories: msbuild nuget visual-studio gitignore dotnet4 rca
 
 Inherited a project today which uses the [Async Targeting Pack](https://www.nuget.org/packages/Microsoft.Bcl.Async) to back port `async` and `await` to the .NET 4.0 platform. Anyway, in this instance the `packages.config` was not checked into the version source control and unfortunately the [.gitignore](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore) was appropriately configured to exclude all binaries (as it should be). 
 
-The result? The solution would not compile and needed repairing via installing the appropriate NuGet packages. Because .NET 4.0 is being targeted `Microsoft.Bcl.Build` is used which contains the MSBuild task that is responsbile for weaving in `Microsoft.Bcl.Async` / `async` and `await`.
+The result? The solution would not compile and needed repairing via installing the appropriate NuGet packages. As .NET 4.0 is being targeted, `Microsoft.Bcl.Build` is needed as an dependency because it contains the MSBuild task that is responsbile for weaving in `Microsoft.Bcl.Async` / providing `async` and `await`.
 
 Now in this particular instance the root course was that NuGet wasn't configured correctly and multiple projects had been manually edited to add in the `Microsoft.Bcl.Build` task at a non-standard hard coded location which did not exist because `.gitignore` had been properly configured.
 
