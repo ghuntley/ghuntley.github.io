@@ -48,7 +48,9 @@ Thanks to the magical powers of [extension methods on interfaces](https://stacko
         private static string ExtractNewsFeedJson(ZipArchive zipArchive)
         {
             Condition.Requires(zipArchive).IsNotNull();
-
+            
+            string results;
+            
             // a well-formed archive contains a single entry at position 0
             // and the filename is usually is `news.json` but the filename is
             // irrelevant. Always grab the first archive entry, an exception will
@@ -56,8 +58,9 @@ Thanks to the magical powers of [extension methods on interfaces](https://stacko
             var compressedFile = zipArchive.Entries.Single();
             using (var memoryStream = new StreamReader(compressedFile.Open()))
             {
-                return memoryStream.ReadToEnd();
+                results = memoryStream.ReadToEnd();
             }
+            return results;
         }
     }
 
