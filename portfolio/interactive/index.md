@@ -16,7 +16,7 @@ Established in 1988, Interactive is a leading Australian IT services company. Ou
     He views every opportunity as a challenge and does not stop 
     until the job is done.
 
-Christopher Ride, Managing Director at Interactive Pty Ltd
+Managing Director at Interactive Pty Ltd
       
   
 	Geoffrey has been integral in introducing new technologies and
@@ -33,4 +33,4 @@ Christopher Ride, Managing Director at Interactive Pty Ltd
 	a passion for technology. A unique, talented individual and
 	a great colleague.
 
-Christopher Ride, Managing Director at Interactive Pty Ltd
+Team member at Interactive Pty Ltd
