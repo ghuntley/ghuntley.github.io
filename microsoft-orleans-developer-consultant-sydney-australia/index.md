@@ -19,7 +19,7 @@ As part of constant and never ending learning, Geoff is actively engaged in cont
 
 ## References
 
-Managing Director at [Interactive Pty Ltd](http://www.interactive.com.au/), E&Y technology entrepreneur of the year:
+Managing Director of [Interactive Pty Ltd](http://www.interactive.com.au/), E&Y technology entrepreneur of the year:
 
     Geoff is a true technical innovator and is not afraid to think
     outside the box. He has found solutions to some of the toughest
