@@ -6,44 +6,35 @@ summary:    A quick overview/rundown on how to setup NPM, create and publish a p
 categories: npm javascript package-management
 ---
 
-If you haven't already set your NPM author info, here's how you do it:
+If you haven't already set your NPM author info, here's how you do it
 
-```
-# npm set init.author.name "Your Name"
-# npm set init.author.email "you@example.com"
-# npm set init.author.url "http://yourblog.com"
-```
 
-Login to NPM and obtain your publish token:
+  # npm set init.author.name "Your Name"
+  # npm set init.author.email "you@example.com"
+  # npm set init.author.url "http://yourblog.com"
 
-```
-# npm adduser
-```
+Login to NPM and obtain your publish token
 
-Next steps are to create your `package.json`:
+  # npm adduser
 
-```
-# cd /path/to/your-project
-# npm init
-```
+Next steps are to create your `package.json`
 
-If you took on dependencies, then you should install and run pakmager.
-```
-# npm install -g pakmanager
-# pakmanager deps
-```
+  # cd /path/to/your-project
+  # npm init
 
-Edit your package.json and add any deps you forgot about.
-```
-# vim package.json
-```
+If you took on dependencies, then you should install and run pakmager
 
-Publish your libary.
+  # npm install -g pakmanager
+  # pakmanager deps
 
-```
-# npm publish ./ --tag beta
-# npm publish ./
-```
+Edit your package.json and add any deps you forgot about
+
+  # vim package.json
+
+Publish your libary
+
+  # npm publish ./ --tag beta
+  # npm publish ./
 
 Additional reading:
 
