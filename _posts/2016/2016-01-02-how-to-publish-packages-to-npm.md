@@ -2,7 +2,7 @@
 layout:     post
 title:      How to publish packages to NPM
 date:       2016-01-02
-summary:    On the back of the packaging of the Apple USB Network Adapter there’s a little disclaimer that mentions that it can be only used with a Apple MacBook. This is not true, here's how you can get it running on Windows Vista, 7, 8.x and 10.
+summary:    A quick overview/rundown on how to setup NPM, create and publish a package.
 categories: npm javascript package-management
 ---
 
