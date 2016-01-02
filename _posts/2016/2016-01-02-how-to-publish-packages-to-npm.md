@@ -8,33 +8,32 @@ categories: npm javascript package-management
 
 If you haven't already set your NPM author info, here's how you do it
 
-
-  # npm set init.author.name "Your Name"
-  # npm set init.author.email "you@example.com"
-  # npm set init.author.url "http://yourblog.com"
+    # npm set init.author.name "Your Name"
+    # npm set init.author.email "you@example.com"
+    # npm set init.author.url "http://yourblog.com"
 
 Login to NPM and obtain your publish token
 
-  # npm adduser
+    # npm adduser
 
 Next steps are to create your `package.json`
 
-  # cd /path/to/your-project
-  # npm init
+    # cd /path/to/your-project
+    # npm init
 
 If you took on dependencies, then you should install and run pakmager
 
-  # npm install -g pakmanager
-  # pakmanager deps
+    # npm install -g pakmanager
+    # pakmanager deps
 
 Edit your package.json and add any deps you forgot about
 
-  # vim package.json
+    # vim package.json
 
 Publish your libary
 
-  # npm publish ./ --tag beta
-  # npm publish ./
+    # npm publish ./ --tag beta
+    # npm publish ./
 
 Additional reading:
 
