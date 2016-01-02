@@ -14,7 +14,7 @@ If you haven't already set your NPM author info, here's how you do it:
 # npm set init.author.url "http://yourblog.com"
 ```
 
-If you don't have an NPM account, one can be created by running
+Login to NPM and obtain your publish token:
 
 ```
 # npm adduser
