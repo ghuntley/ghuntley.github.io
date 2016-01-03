@@ -25,6 +25,10 @@ Warning: old key(s) found and disabled.
 Generating Ed25519 keypair:
 Done.
 Warning: old key(s) found and disabled.
+
+# cd C:\PROGRA~2\tinc\tap-win64
+# tapinstall.exe install OemWin2k.inf tap0901
+
 ```
 
 ## Linux
