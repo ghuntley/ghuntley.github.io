@@ -7,9 +7,9 @@ categories: xamarin developer consultant sydney australia mono monotouch monodro
 
 Geoffrey has been actively involved in the Xamarin community and leading projects using this breakout technology since 2012. He is one of the maintainers of the popular ReactiveUI functional reactive programming MVVM framework and author of the project samples/documentation.
 
-He regularly does presentations on Xamarin technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by power-point on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
+He regularly does presentations on Xamarin technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by powerpoint on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
 
-If you've got an position available or interesting project you want to get off the ground send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='Xamarin Engagement'">ghuntley@ghuntley.com</a> with your requirements for a confidential discussion. 
+If you’ve got a position in mind or a interesting project you want to get off the ground send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='Xamarin Engagement'">ghuntley@ghuntley.com</a> with your requirements for a confidential discussion. 
 
 ## Open Source
 
