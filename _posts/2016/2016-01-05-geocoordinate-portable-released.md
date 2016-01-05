@@ -31,31 +31,4 @@ Installation is done via NuGet:
     
     double distanceBetween = pin1.GetDistanceTo(pin2);
 
-For more examples, refer to the MSDN reference documentation over at: https://msdn.microsoft.com/en-us/library/system.device.location.geocoordinate(v=vs.110).aspx
-
-[1] You will need to find, replace and remove all `using GeoGoordinatePortable;` references.
-
-
-# Supported Platforms
-
-* Mono
-* .NET 4.5
-* .NET Core
-* Windows Phone 8.x
-* Universal Windows Platform
-* Xamarin iOS
-* Xamarin Android
-
-# Installation
-Installation is done via NuGet:
-
-    PM> Install-Package GeoCoordinate
-    
-# Usage
-
-    GeoCoordinate pin1 = new GeoCoordinate(lat, lng);
-    GeoCoordinate pin2 = new GeoCoordinate(lat, lng);
-    
-    double distanceBetween = pin1.GetDistanceTo(pin2);
-
-For more examples, refer to the MSDN reference documentation over at: https://msdn.microsoft.com/en-us/library/system.device.location.geocoordinate(v=vs.110).aspx
+For more examples, refer to the MSDN reference documentation over at: [https://msdn.microsoft.com/en-us/library/system.device.location.geocoordinate(v=vs.110).aspx](https://msdn.microsoft.com/en-us/library/system.device.location.geocoordinate(v=vs.110).aspx)
