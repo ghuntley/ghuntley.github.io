@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      GeoCoordinate Portable Released
-date:       2016-01-02
+date:       2016-01-05
 summary:    GeoCoordinate is a Portable Class Library compatible implementation of System.Device.Location.GeoCoordinate. It is an exact 1:1 API compliant implementation and will be supported until MSFT sees it fit to embed the type. Which at that point this implementation will cease development/support and you will be able to simply remove this package and everything will still work.
 categories: system.devices.location geocoordinate pcl xamarin universal-windows-platform windows-phone
 ---
