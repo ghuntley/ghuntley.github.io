@@ -13,8 +13,8 @@ layout: null
     <name><![CDATA[{{ site.author | strip_html }}]]></name>
     {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
   </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
+  <generator uri="https://github.com/">GitHub Pages</generator>
+ 
   {% for post in site.posts limit: 20 %}
   {% unless post.redirect %}
   <entry>
