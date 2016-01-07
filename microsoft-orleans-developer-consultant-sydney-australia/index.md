@@ -5,7 +5,7 @@ permalink: /microsoft-orleans-developer-consultant-sydney-australia/
 categories: orleansfx orleans developer consultant sydney australia mono orleans akka actors cap-theorem reactive-extensions xamarin cqrs ddd devops azure microservices nuget octopusdeploy teamcity appveyor coreclr corefx 
 ---
 
-Geoffrey has been actively involved in the Orleans community and leading projects using this breakout technology since 2015. He is one of the maintainers of the popular ReactiveUI functional reactive programming MVVM framework for Xamarin/UWP/WPF and author of the project samples/documentation.
+Geoffrey has been actively involved in the Orleans community and leading projects using this breakout technology since 2015. He is one of the maintainers of the popular ReactiveUI functional reactive programming MVVM framework for Xamarin/UWP/WPF.
 
 He regularly does presentations on open-source technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by powerpoint on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
 
