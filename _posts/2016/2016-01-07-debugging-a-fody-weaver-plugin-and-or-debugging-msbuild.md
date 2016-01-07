@@ -47,7 +47,7 @@ The next step is to debug the actual code that is being weaved, in my case the p
 * Manually add the references to the weaver from the local project.
 * Save the solution.
 * Follow the [Microsoft recommendations](http://blogs.msdn.com/b/visualstudio/archive/2010/07/06/debugging-msbuild-script-with-visual-studio.aspx
-) and enable `Just My Code` the options for Visual Studio.
+) and enable `Just My Code` in the Visual Studio options.
 
 
 The next steps from here is to invoke msbuild manually and wait for your build to fail:
