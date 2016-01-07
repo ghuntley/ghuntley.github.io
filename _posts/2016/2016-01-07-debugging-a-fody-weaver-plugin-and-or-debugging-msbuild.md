@@ -42,7 +42,7 @@ The next step is to debug the actual code that is being weaved, in my case the p
 
 * Clone the source code of the weaver that was misbehaving
 * Open the project in visual studio
-* Add "your misbehaviing" library to the weaver solution.
+* Add "your misbehaving" library to the weaver solution.
 * Remove nuget references for that weaver.
 * Manually add the references to the weaver from the local project.
 * Save the solution.
