@@ -2,14 +2,14 @@
 layout: page
 title: F# Software Developer/Consultant (Sydney, Australia)
 permalink: /microsoft-fsharp-developer-consultant-sydney-australia/
-categories: f# fsharp developer consultant sydney australia lambdas higher-order-functions monoids mono xamarin cqrs ddd devops azure microservices nuget octopusdeploy teamcity appveyor coreclr corefx lisp haskell swift 
+categories: f# fsharp developer consultant sydney australia lambdas higher-order-functions monoids mono xamarin cqrs ddd devops azure microservices nuget octopusdeploy teamcity appveyor coreclr corefx lisp haskell swift xamarin
 ---
 
 Geoffrey is extremely keen to hear from anyone looking to place software engineers at companies that are using the functional programming language F#. He is one of the maintainers of the popular ReactiveUI functional reactive programming MVVM framework for Xamarin/UWP/WPF written in C#. 
 
 He regularly does presentations on open-source technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by powerpoint on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
 
-Deep down, he dreams of lambdas but the right opporunity has not (yet) arisen. If you've got a position available send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='F# Engagement'">ghuntley@ghuntley.com</a> for a confidential discussion. 
+Deep down, he dreams of lambdas but the right opporunity has not (yet) arisen. If you've got a position available send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='F# Engagement'">ghuntley@ghuntley.com</a> or [via LinkedIn](https://www.linkedin.com/in/geoffreyhuntley) for a confidential discussion. 
 
 ## Open Source
 
