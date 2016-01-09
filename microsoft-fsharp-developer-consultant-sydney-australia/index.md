@@ -9,7 +9,7 @@ Geoffrey is extremely keen to hear from anyone looking to place software enginee
 
 He regularly does presentations on open-source technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by powerpoint on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
 
-Deep down, he dreams of lambdas but the right opporunity has not (yet) arisen. If you've got a position available send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='F# Engagement'">ghuntley@ghuntley.com</a> or [via LinkedIn](https://www.linkedin.com/in/geoffreyhuntley) for a confidential discussion. 
+Deep down, he dreams of higher order functions but the right opporunity has not (yet) arisen. If you've got a position available send a message [via LinkedIn](https://www.linkedin.com/in/geoffreyhuntley) or an email to <a href="mailto:ghuntley@ghuntley.com?Subject='F# Engagement'">ghuntley@ghuntley.com</a> for a confidential discussion. 
 
 ## Open Source
 

@@ -9,7 +9,7 @@ Geoffrey has been actively involved in the Xamarin community and leading project
 
 He regularly does presentations on Xamarin technologies and has over 20 years industry experience as a T-shaped individual with deep technology, business and entrepreneurship experience. You will never see death by powerpoint on his watch - minimal, to the point, tied together with effective storytelling. He is comfortable switching between technical and non-technical styles of communication as needed to a variety of audiences. 
 
-If you’ve got a position in mind or a interesting project you want to get off the ground send an email to <a href="mailto:ghuntley@ghuntley.com?Subject='Xamarin Engagement'">ghuntley@ghuntley.com</a> or [via LinkedIn](https://www.linkedin.com/in/geoffreyhuntley) with your requirements for a confidential discussion. 
+If you’ve got a position in mind or a interesting project you want to get off the ground send a message via [via LinkedIn](https://www.linkedin.com/in/geoffreyhuntley) or an email to <a href="mailto:ghuntley@ghuntley.com?Subject='Xamarin Engagement'">ghuntley@ghuntley.com</a> with your requirements for a confidential discussion. 
 
 ## Open Source
 
