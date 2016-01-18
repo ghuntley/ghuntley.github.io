@@ -15,8 +15,6 @@ The root cause is usually related to invalid or corrupted Hyper-V networking con
 
 Finally run `xdecleanup.exe` as administrator for every version of XDE installed
 
-```
-C:\progra~2\Microsoft XDE\8.0\XdeCleanup.exe
-C:\progra~2\Microsoft XDE\8.1\XdeCleanup.exe
-C:\progra~2\Microsoft XDE\10.0.10586.0\XdeCleanup.exe
-```
+    # C:\progra~2\Microsoft XDE\8.0\XdeCleanup.exe
+    # C:\progra~2\Microsoft XDE\8.1\XdeCleanup.exe
+    # C:\progra~2\Microsoft XDE\10.0.10586.0\XdeCleanup.exe
