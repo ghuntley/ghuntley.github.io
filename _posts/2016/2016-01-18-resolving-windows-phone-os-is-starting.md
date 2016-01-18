@@ -14,7 +14,8 @@ The root cause is usually related to invalid or corrupted Hyper-V networking con
 * Assuming you do not have custom virtual machines defined, in the `Hyper-V Manager` delete all `virtual machines` and all `virtual switches`
 * Run `xdecleanup.exe` as administrator for every version of XDE installed
 
-```bash
+
+```
 C:\progra~2\Microsoft XDE\8.0\XdeCleanup.exe
 C:\progra~2\Microsoft XDE\8.1\XdeCleanup.exe
 C:\progra~2\Microsoft XDE\10.0.10586.0\XdeCleanup.exe
