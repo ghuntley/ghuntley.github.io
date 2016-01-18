@@ -14,6 +14,12 @@ I live in Sydney, Australia.
 
 The opinions expressed on this site are my own and do not necessarily represent those of my clients.
 
+## Open Source
+
+As part of constant and never ending learning, I'm actively engaged in contributing to the following Xamarin and .NET projects. Open-source for me is a way of life, when I'm not [authoring code](https://github.com/ghuntley/) you will find me [building communities](https://github.com/reactiveui/ReactiveUI/issues/687), [passing down knowledge](https://github.com/reactiveui/ReactiveUI/pull/771) and [mentoring first timers](https://github.com/reactiveui/ReactiveUI/issues/1005).
+
+<a style="background: none; !important" href="http://reactiveui.net/"><img src="reactiveui.png"/></a> <a style="background: none; !important" href="http://github.com/dotnet/"><img src="dotnet.png"/></a>
+
 ## Social
 
 [Twitter](https://twitter.com/geoffreyhuntley)
@@ -29,9 +35,3 @@ The opinions expressed on this site are my own and do not necessarily represent 
 [chocolatey](https://chocolatey.org/profiles/ghuntley)
 
 [npm](https://npmjs.org/~ghuntley)
-
-## Contributions
-
-As part of constant and never ending learning, I'm actively engaged in contributing to the following Xamarin and .NET projects. Open-source for me is a way of life, when I'm not [authoring code](https://github.com/ghuntley/) you will find me [building communities](https://github.com/reactiveui/ReactiveUI/issues/687), [passing down knowledge](https://github.com/reactiveui/ReactiveUI/pull/771) and [mentoring first timers](https://github.com/reactiveui/ReactiveUI/issues/1005).
-
-<a style="background: none; !important" href="http://reactiveui.net/"><img src="reactiveui.png"/></a> <a style="background: none; !important" href="http://github.com/dotnet/"><img src="dotnet.png"/></a>
