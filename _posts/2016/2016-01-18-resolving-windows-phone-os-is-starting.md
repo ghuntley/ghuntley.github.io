@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      Resolving Windows Phone OS is starting
+date:       2016-01-18
+summary:    A quick tech-tip on how to resolve the issue whereby the Windows Phone 8.x or 10.x emulators stall upon launch at the initial "Windows Phone OS is starting..." loading screen.
+categories: windows-phone emulator factory-reset hyper-v networking virtual-switch
+---
+
+A quick tech-tip on how to resolve the issue whereby the Windows Phone 8.x or 10.x emulators stall upon launch at the initial "Windows Phone OS is starting..." loading screen.
+
+The root cause is usually related to invalid or corrupted Hyper-V networking configuration, rather than waste time troubleshooting it I recommend just resetting the emulators back to factory defaults:
+
+* Close all emulators and visual studio instances that may be running.
+* Assuming you do not have custom virtual machines defined, in the `Hyper-V Manager` delete all `virtual machines` and all `virtual switches`
+* Run `xdecleanup.exe` as administrator for every version of XDE installed
+
+```bash
+C:\progra~2\Microsoft XDE\8.0\XdeCleanup.exe
+C:\progra~2\Microsoft XDE\8.1\XdeCleanup.exe
+C:\progra~2\Microsoft XDE\10.0.10586.0\XdeCleanup.exe
+```
