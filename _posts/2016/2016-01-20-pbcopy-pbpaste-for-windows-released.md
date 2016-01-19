@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      pbcopy and pbpaste released for Windows
+title:      pbcopy & pbpaste released for Windows
 date:       2016-01-20
 summary:    Your favourite OSX command line clipboard manipulation libraries pbcopy and pbpaste are now available on Windows.
 categories: osx windows console clipboard pasteboard pbcopy pbpaste
