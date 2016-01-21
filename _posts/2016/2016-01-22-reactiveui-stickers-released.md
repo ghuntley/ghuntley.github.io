@@ -5,11 +5,7 @@ date:       2016-01-22
 summary:    Using ReactiveUI or just want more street cred at the next meetup? Slap one of these bad boys on your laptop lid to attract those nods of approval.
 categories: reactiveui xamarin uwp dotnet stickers
 ---
-Using #ReactiveUI or just want more street cred at the next meetup?
-
-[![ReactiveUI Sticker](/images/reactiveui-sticker.png)](http://www.stickermule.com/marketplace/10091-reactiveui)
-
-[Slap one of these bad boys](http://www.stickermule.com/marketplace/10091-reactiveui) on your laptop lid to attract those nods of approval.
+Using #ReactiveUI or just want more street cred at the next meetup? [Slap one of these bad boys](http://www.stickermule.com/marketplace/10091-reactiveui) on your laptop lid to attract those nods of approval.
 
 ![](/images/nodofapproval-billgates.gif)
 
