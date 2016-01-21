@@ -11,4 +11,4 @@ Using #ReactiveUI or just want more street cred at the next meetup? [Slap one of
 
 What's [ReactiveUI](http://www.reactiveui.net/) you ask? Well it is a MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP) are amongst our supported platforms.
 
-We have our very own Slack community and [would to love to have you as a neighbour](https://github.com/reactiveui/reactiveui#slack).
+We have our very own [Slack community](https://github.com/reactiveui/reactiveui#slack) and [would to love to have you as our neighbour](https://youtu.be/_4nI7AgUKwk?t=19).
