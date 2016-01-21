@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      ReactiveUI stickers released
+date:       2016-01-22
+summary:    Using ReactiveUI or just want more street cred at the next meetup? Slap one of these bad boys on your laptop lid to attract those nods of approval.
+categories: reactiveui xamarin uwp dotnet stickers
+---
+Using #ReactiveUI or just want more street cred at the next meetup?
+
+[![ReactiveUI Sticker](/images/reactiveui-sticker.png)](http://www.stickermule.com/marketplace/10091-reactiveui)
+
+[Slap one of these bad boys](http://www.stickermule.com/marketplace/10091-reactiveui) on your laptop lid to attract those nods of approval.
+
+![](/images/nodofapproval-billgates.gif)
+
+What's ReactiveUI you ask? Well it is a MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8, Windows Store and Universal Windows Platform (UWP) are amongst our supported platforms.
+
+We have our very own Slack community and [would to love to have you as a neighbour](https://github.com/reactiveui/reactiveui#slack).
