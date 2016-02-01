@@ -15,7 +15,7 @@ categories: xamarin uwp library sim information ICCID MCC IMSI MSID MNC MSISDN
 * Mobile Network Code. (MNC)
 * Mobile Subscriber International ISDN Number. (MSISDN)
 
-# Usage
+## Usage
 
 The API is rather straight forward
 
