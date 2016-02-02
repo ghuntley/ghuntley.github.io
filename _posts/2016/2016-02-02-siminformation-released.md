@@ -9,9 +9,9 @@ categories: xamarin uwp library sim information ICCID MCC IMSI MSID MNC MSISDN
 [SimInformation](https://github.com/ghuntley/siminformation) is a cross-platform library that provides a way to access the following information from your SIM card:
 
 * Integrated Circuit Card ID. (ICCID)
-* Mobile Country Code (MCC)
+* Mobile Country Code. (MCC)
 * International Mobile Subscriber Identity. (IMSI)
-* Mobile Station ID (MSID)
+* Mobile Station ID. (MSID)
 * Mobile Network Code. (MNC)
 * Mobile Subscriber International ISDN Number. (MSISDN)
 
