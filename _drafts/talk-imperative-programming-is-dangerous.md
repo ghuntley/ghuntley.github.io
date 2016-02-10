@@ -10,11 +10,7 @@ we can easily find ourselves in a sticky situation. We can try and mitigate the
 costs of imperative programming with things like unit tests or integration tests,
 but why mitigate the costs when there's a better way?
 
-http://docs.reactiveui.net/en/fundamentals/history.html
-http://docs.reactiveui.net/en/fundamentals/functional-reactive-programming.html
-
 # Audience level
-
 
 # Structure
 
