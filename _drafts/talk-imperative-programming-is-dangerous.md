@@ -47,7 +47,6 @@ Well, we know to some degree what functional programming is. Functions don't hav
 Reactive programming? What's that? Well, the best way to describe reactive programming is to think of a spreadsheet. 
 
 ### Signals
-* Everyone says Functional Reactive Programming is hard, but anyone who writes Excel expression is doing it
 
 Imagine three cells, A, B, and C. A is defined as the sum of B and C. Whenever B or C changes, A reacts to update itself. That's reactive programming: changes propagate throughout a system automatically.
 
@@ -57,6 +56,7 @@ Functional reactive programming is just a combination of functional and reactive
 * ReactiveCommand and OpenBrowser
  
 ## Conclusion
-Instead of telling a computer how to do its job, why don't we just tell it what it's job is and let it figure the rest out? The bottom line is imperative programming is error-prone and relies too heavily on the infallibility of the programmer.
+* Instead of telling a computer how to do its job, why don't we just tell it what it's job is and let it figure the rest out? The bottom line is imperative programming is error-prone and relies too heavily on the infallibility of the programmer.
+* Functional reactive programming is the peanut butter and chocolate of programming paradigms.
+* Everyone says Functional Reactive Programming is hard, but anyone who writes Excel expression is doing it
 
-Functional reactive programming is the peanut butter and chocolate of programming paradigms.
