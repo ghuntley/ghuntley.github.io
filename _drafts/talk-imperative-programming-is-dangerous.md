@@ -53,7 +53,7 @@ Imagine three cells, A, B, and C. A is defined as the sum of B and C. Whenever B
 Functional reactive programming is just a combination of functional and reactive paradigms. We model user input as a function that changes over time, abstracting away the idea of mutable state.
 
 ## Code
-* ReactiveCommand and OpenBrowser
+* OPAH, WhenAnyValue, ReactiveCommand and implement the OpenBrowser sample.
  
 ## Conclusion
 * Instead of telling a computer how to do its job, why don't we just tell it what it's job is and let it figure the rest out? The bottom line is imperative programming is error-prone and relies too heavily on the infallibility of the programmer.
