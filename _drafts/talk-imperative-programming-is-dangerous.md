@@ -12,6 +12,14 @@ but why mitigate the costs when there's a better way?
 
 # Audience level
 
+In this talk we quickly in the first 5 minutes visit the history of programming as a basis to reflect upon if building user interfaces using the same techniques from the 1980's is still the right thing to do.
+
+From there, reactive concepts are taught by using analogies such as functional reactive programming isn't hard - your manager does it every day using Microsoft Excel without knowing it.
+
+A perfectly efficient, reactive user interface will be build using Xamarin and the ReactiveUI framework.
+
+No experience with functional programming, reactive programming or Xamarin is required. 
+
 # Structure
 
 ## History of Computing
