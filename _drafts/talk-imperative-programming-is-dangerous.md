@@ -1,18 +1,14 @@
 # Topic
 
-Imperative Programming is Dangerous
+Imperative Programming is Dangerous (working title)
 
 # Abstract
 
-When we rely on hoping that the behavior that emerges from a program is correct, 
-and that reliance is based on nothing more than a programmer's correctness, then
-we can easily find ourselves in a sticky situation. We can try and mitigate the
-costs of imperative programming with things like unit tests or integration tests,
-but why mitigate the costs when there's a better way?
+When we rely on hoping that the behavior that emerges from a program is correct,  and that reliance is based on nothing more than a programmer's correctness, then we can easily find ourselves in a sticky situation. We can try and mitigate the costs of imperative programming with things like unit tests or integration tests, but why mitigate the costs when there's a better way?
 
 # Audience level
 
-In this talk we quickly in the first 5 minutes visit the history of programming as a basis to reflect upon if building user interfaces using the same techniques from the 1980's is still the right thing to do.
+In this talk, we quickly visit the history of programming to reflect if building user interfaces using the same techniques from the 1980's is still the right thing to do.
 
 From there, reactive concepts are taught by using analogies such as functional reactive programming isn't hard - your manager does it every day using Microsoft Excel without knowing it.
 
