@@ -62,7 +62,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    "/archive/:year/:month/:day/:title/"
-paginate:     5
+paginate:     15
 paginate_path: "page/:num"
 category_dir: categories
 sass:
