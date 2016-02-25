@@ -1,4 +1,7 @@
-# CFP Idea Generator
+# Ideas
+
+
+## Introspective
 
 * What’s something you work with fairly regularly and understand 80% of, but not 100%?
 * What’s a new technology or technique that you’ve heard of recently, but don’t know much about?
