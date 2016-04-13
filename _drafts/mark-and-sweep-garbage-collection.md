@@ -19,6 +19,8 @@ c) Mark the white block from a) as Black.
 
 Finally find black blocks with no references.
 
+# Generations
+
 ## Videos
 
 * https://www.youtube.com/watch?v=VJsmrTQWD2k
