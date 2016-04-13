@@ -1,5 +1,23 @@
 # Mark & Sweep Garbage Collection
 
+## Mark Phase
+
+### Concepts
+
+* Block Colours (black, white, grey)
+* References
+* GC Root (frames, global variables)
+
+Repeat the following process:
+
+a) For each white block.
+b) Visit all white references, mark them as grey.
+c) Mark the white block from a) as Black.
+
+Finally find black blocks with no references.
+
+## Sweep Phase
+
 ## Videos
 
 * https://www.youtube.com/watch?v=VJsmrTQWD2k
