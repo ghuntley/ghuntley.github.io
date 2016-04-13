@@ -31,6 +31,7 @@ Finally find black blocks with no references.
   * The few Objects which survive this collection process are copied/evicted into the Major collection.
 * Major (Where they are copied to when they mature)
 * Large Object Space (Part of major, objects above Kb, typically large arrays)
+  * Moving items from Nursey to Major is cheap, moving Objects around within the Large Object Space is expensive.
 
 ## Videos
 
