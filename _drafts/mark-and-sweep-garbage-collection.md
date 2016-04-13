@@ -21,6 +21,8 @@ Finally find black blocks with no references.
 
 ## Generations
 
+* One of the jobs of the garbage collector is seperate the heap into more than one generations.
+
 ### Concepts
 
 * Generational Hypothesis (most objects die young)
