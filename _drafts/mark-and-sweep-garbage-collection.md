@@ -14,9 +14,10 @@ a) For each white block.
 b) Visit all white references, mark them as grey.
 c) Mark the white block from a) as Black.
 
-Finally find black blocks with no references.
 
 ## Sweep Phase
+
+Finally find black blocks with no references.
 
 ## Videos
 
