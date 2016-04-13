@@ -19,7 +19,11 @@ c) Mark the white block from a) as Black.
 
 Finally find black blocks with no references.
 
-# Generations
+## Generations
+
+### Concepts
+
+* Generational Hypothesis - https://www.quora.com/What-is-the-generational-hypothesis-in-the-context-of-garbage-collection
 
 ## Videos
 
