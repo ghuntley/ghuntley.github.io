@@ -34,6 +34,18 @@ Finally find black blocks with no references.
   * Part of the major generation heap, objects typically above > 8Kb
   * Moving items from Nursey to Major is cheap, moving Objects around within the Large Object Space is expensive.
 
+## Stop The World Garbage Collection
+
+* Nursery collection pauses are short
+* Major collection pauses can take a long time
+* All threads registered with the runtime are stopped, including the main run loop. Animations on iOS are not effected as they are run in a seperate process.
+
+
+## Common Isssues with Xamarin
+* The garbage collector <?$condition?> runs when the nursey is full. 
+* The garbage collector cannot see what's behind an innocent object. For example UIImage (C#) is 32bytes but behind the scenes is a 2MB JPEG UIImage (ObjC)
+* 
+
 ## Videos
 
 * https://www.youtube.com/watch?v=VJsmrTQWD2k
