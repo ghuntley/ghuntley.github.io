@@ -21,12 +21,14 @@ Finally find black blocks with no references.
 
 ## Generations
 
-* One of the jobs of the garbage collector is seperate the heap into more than one generations.
 
 ### Concepts
 
+* One of the jobs of the garbage collector is seperate the heap into more than one generations.
 * Generational Hypothesis (most objects die young)
 * Nursey (Where small objects are born)
+  * Nursey has a fixed size, allocations are very efficient and once it fills up the nursey is collected.
+
 * Major (Where they are copied to when they mature)
 * Large Object Space (Part of major, objects above Kb, typically large arrays)
 
