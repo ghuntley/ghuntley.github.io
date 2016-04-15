@@ -46,10 +46,15 @@ Finally find black blocks with no references.
 * The garbage collector cannot see what's behind an innocent object. For example UIImage (C#) is 32bytes but behind the scenes is a 2MB JPEG UIImage (ObjC)
   * Solution is to dispose of resources.. i.e. imageView.Dispose(), uiView.Dispose() and implement IDisposable pattern (rememebr IDisposable is not a destructor) 
 * On Xamarin.iOS - Indirect Cycles
+* On Xamarin.Android - Cross-Heap References
+
+* Measure before assuming something is wrong, always, here's how to enable on Android
+
+> adb shell setprop debug.mono.env "MONO_LOG_LEVEL=debug|MONO_LOG_MASK=gc"
 
 ### iOS
 
-### Indirect Cycles
+#### Indirect Cycles
 * Inherited from Objective-C
 * When multiple objects point to each other.
 * Break/prevent these cycles by
@@ -59,6 +64,13 @@ Finally find black blocks with no references.
 * What can trigger it
   * Non-wrapper subclasses of NSObject
   * With reference count > 2
+
+### Android
+
+
+#### Cross-heap References
+* Oversharing, passing c# objects into java object. (i.e. c# array into a java arrayadapter) causes cross-heap references. Objects that live in both worlds need to be managed. Solution is to do it all from C# land.
+ 
 
 ## Videos
 
