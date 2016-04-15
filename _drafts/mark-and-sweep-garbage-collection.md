@@ -66,7 +66,7 @@ Finally find black blocks with no references.
   * With reference count > 2
 
 ### Android
-
+* Imposes 4k object limit when running on emulator, 50k when running on a device (if the device manufacture is nice to you)
 
 #### Cross-heap References
 * Oversharing, passing c# objects into java object. (i.e. c# array into a java arrayadapter) causes cross-heap references. Objects that live in both worlds need to be managed. Solution is to do it all from C# land.
