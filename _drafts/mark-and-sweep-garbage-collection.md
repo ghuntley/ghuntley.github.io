@@ -45,7 +45,20 @@ Finally find black blocks with no references.
 * The garbage collector <?$condition?> runs when the nursey is full. 
 * The garbage collector cannot see what's behind an innocent object. For example UIImage (C#) is 32bytes but behind the scenes is a 2MB JPEG UIImage (ObjC)
   * Solution is to dispose of resources.. i.e. imageView.Dispose(), uiView.Dispose() and implement IDisposable pattern (rememebr IDisposable is not a destructor) 
-* Indirect cycles (strong references)
+* On Xamarin.iOS - Indirect Cycles
+
+### iOS
+
+### Indirect Cycles
+* Inherited from Objective-C
+* When multiple objects point to each other.
+* Break/prevent these cycles by
+  * Using WeakReference<T>
+  * Disposing of the parent
+  * Explicitly nulling the links.
+* What can trigger it
+  * Non-wrapper subclasses of NSObject
+  * With reference count > 2
 
 ## Videos
 
@@ -55,3 +68,5 @@ Finally find black blocks with no references.
 * https://www.quora.com/What-is-the-generational-hypothesis-in-the-context-of-garbage-collection
 * http://www.brpreiss.com/books/opus5/html/page424.html
 * http://c2.com/cgi/wiki?MarkAndSweep
+* http://www.dotnetperls.com/weakreference
+* http://rypress.com/tutorials/objective-c/memory-management
