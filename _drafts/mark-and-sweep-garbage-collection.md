@@ -74,6 +74,15 @@ Finally find black blocks with no references.
 * Performance cost of language crossing is high
 * Higher Garbage Collection costs
 * Your objects are effectively being mirrored, your using twice as much memory.
+* Where the object was created defines ownership, for example ArrayAdapter containing C# objects means owned by Java with overhead for Java to bridge the C# objects. 
+
+## Performance Tips
+* The less you allocate, the less often the GC runs
+* The less live data you have, the quicker the GC runs
+* Small, short-lived objects are cheap
+* Don't allocate large (>8kb ) objects that die young.
+* Avoid writing to reference fields (actually, avoid having reference fields all together)
+* Don't use free lists aka manually managing memory blocks - https://msdn.microsoft.com/en-us/library/ee292184(v=vs.100).aspx
 
 ## Videos
 
