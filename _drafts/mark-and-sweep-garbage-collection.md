@@ -70,7 +70,10 @@ Finally find black blocks with no references.
 
 #### Cross-heap References
 * Oversharing, passing c# objects into java object. (i.e. c# array into a java arrayadapter) causes cross-heap references. Objects that live in both worlds need to be managed. Solution is to do it all from C# land.
- 
+* It is expensive for Java to see a C# object (and vice-versa)
+* Performance cost of language crossing is high
+* Higher Garbage Collection costs
+* Your objects are effectively being mirrored, your using twice as much memory.
 
 ## Videos
 
