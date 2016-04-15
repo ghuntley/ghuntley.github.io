@@ -44,7 +44,8 @@ Finally find black blocks with no references.
 ## Common Isssues with Xamarin
 * The garbage collector <?$condition?> runs when the nursey is full. 
 * The garbage collector cannot see what's behind an innocent object. For example UIImage (C#) is 32bytes but behind the scenes is a 2MB JPEG UIImage (ObjC)
-* 
+  * Solution is to dispose of resources.. i.e. imageView.Dispose(), uiView.Dispose() and implement IDisposable pattern (rememebr IDisposable is not a destructor) 
+* Indirect cycles (strong references)
 
 ## Videos
 
