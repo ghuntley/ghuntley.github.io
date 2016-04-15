@@ -75,6 +75,7 @@ Finally find black blocks with no references.
 * Higher Garbage Collection costs
 * Your objects are effectively being mirrored, your using twice as much memory.
 * Where the object was created defines ownership, for example ArrayAdapter containing C# objects means owned by Java with overhead for Java to bridge the C# objects. 
+* There are special cases (numbers/strings) which are immutable where Xamarin handle this concern for you and the overhead does not exist. No way to add/tag something, this is done under the hood.
 
 ## Performance Tips
 * The less you allocate, the less often the GC runs
