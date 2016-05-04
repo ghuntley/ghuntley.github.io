@@ -50,7 +50,7 @@ Which will automatically yield in your application logs:
 
 ## Advanced Usage
 
-The constructor of HttpClientDiagnosticsHandler can take another `HttpMessageHandler` which provides you with a way to chain multiple handlers together. A common scenario would be using [Refit](https://github.com/paulcbetts/refit) to automatically convert interface definitions into REST clients and integrating with [ModernHttpClient](https://github.com/paulcbetts/modernhttpclient) for performance improvements, [Fusillade](https://github.com/paulcbetts/Fusillade) for auto-deduplication of requests/request limiting/request prioritization and then finally your own custom handler that handles REST API authentication, authorization/security in a single and central place.
+The constructor of `HttpClientDiagnosticsHandler` can take another `HttpMessageHandler` which provides you with a way to chain multiple handlers together. A common scenario would be using [Refit](https://github.com/paulcbetts/refit) to automatically convert interface definitions into REST clients and integrating with [ModernHttpClient](https://github.com/paulcbetts/modernhttpclient) for performance improvements, [Fusillade](https://github.com/paulcbetts/Fusillade) for auto-deduplication of requests/request limiting/request prioritization and then finally your own custom handler that handles REST API authentication, authorization/security in a single and central place.
 
     public interface IDuckDuckGoApi
     {
