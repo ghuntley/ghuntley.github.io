@@ -2,11 +2,11 @@
 layout:     post
 title:      Announcing HttpClientDiagnostics
 date:       2016-05-04
-summary:    HttpClientDiagnostics is a cross platform, portable class library that provides tracing/logging telemetry of Microsoft.Net.HttpClient requests. In the spirit of "applications decide the logging framework, libraries should play nice" this package does _not_ require any external dependencies or abstractions like Common.Logging. Logging all happens automatically, behind the scenes, without you needing to know how or care how to wire this up thanks to the amazing LibLog. It’s like magic! Its the future.
+summary:    HttpClientDiagnostics is a cross platform, portable class library that provides tracing/logging telemetry of Microsoft.Net.HttpClient requests. 
 categories: android ios xamarin logging tracing diagnostics liblog httpclient rest networking  
 ---
 
-[HttpClientDiagnostics](https://github.com/ghuntley/HttpClientDiagnostics) is a cross platform, portable class library that provides tracing/logging telemetry of [Microsoft.Net.HttpClient](https://www.nuget.org/packages/Microsoft.Net.Http/) requests. In the spirit of "applications decide the logging framework, libraries should play nice" this package does _not_ require any external dependencies or abstractions like Common.Logging. Logging all happens automatically, behind the scenes, without you needing to know how or care how wiring works this up thanks to the amazing LibLog. [It’s like magic! Its the future](http://nblumhardt.com/2016/04/which-logging-abstraction-should-i-use/).
+[HttpClientDiagnostics](https://github.com/ghuntley/HttpClientDiagnostics) is a cross platform, portable class library that provides tracing/logging telemetry of [Microsoft.Net.HttpClient](https://www.nuget.org/packages/Microsoft.Net.Http/) requests. In the spirit of "applications decide the logging framework, libraries should play nice" this package does _not_ require any external dependencies or abstractions like Common.Logging. Logging all happens automatically, behind the scenes, without you needing to know how or care how to wire this up this up thanks to the amazing LibLog. [It’s like magic! Its the future](http://nblumhardt.com/2016/04/which-logging-abstraction-should-i-use/).
 
 ## Supported Platforms
 * .NET 4.5
