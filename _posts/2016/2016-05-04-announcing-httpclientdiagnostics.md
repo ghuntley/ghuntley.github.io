@@ -68,13 +68,13 @@ The constructor of `HttpClientDiagnosticsHandler` can take another `HttpMessageH
 
         public DuckDuckGoApiService(string apiBaseAddress = null, bool enableDiagnostics = false)
         {
-            Func<HttpMessageHandler, IDuckDuckGoApi> createClient = messageHandler =>
+            Func<HttpMessageHandler, IDuckDuckGoApi> createClient = messageHandlerChain =>
             {
                 HttpMessageHandler handler;
 
                 if (enableDiagnostics)
                 {
-                    handler = new HttpClientDiagnosticsHandler(messageHandler);
+                    handler = new HttpClientDiagnosticsHandler(messageHandlerChain);
                 }
                 else
                 {
