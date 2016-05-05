@@ -81,7 +81,7 @@ The constructor of `HttpClientDiagnosticsHandler` can take another `HttpMessageH
                     handler = messageHandler;
                 }
 
-                var client = new HttpClient(handler))
+                var client = new HttpClient(handler)
                 {
                     BaseAddress = new Uri(apiBaseAddress ?? ApiBaseAddress)
                 };
