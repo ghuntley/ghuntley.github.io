@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.sync
 .DS_Store
 
 # Ignore the config file that's used for gh-pages.
