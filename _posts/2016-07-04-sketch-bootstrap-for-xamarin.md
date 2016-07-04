@@ -1,5 +1,5 @@
 ---
-title: Sketch bootstrap for Xamarin
+title: Naming of assets in a Xamarin project
 date: '2016-07-04 05:22:00'
 layout: post
 draft: true
