@@ -1,5 +1,5 @@
 ---
-title: Naming of assets in a Xamarin Forms project
+title: Naming of images in a Xamarin Forms project
 date: '2016-07-04 05:22:00'
 layout: post
 draft: true
