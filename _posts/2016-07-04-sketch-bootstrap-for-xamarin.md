@@ -10,4 +10,5 @@ draft: true
 * http://iconhandbook.co.uk/reference/chart/android/
 
 # iOS
+* https://github.com/dkhamsing/ios-asset-names
 * http://iconhandbook.co.uk/reference/chart/ios/
