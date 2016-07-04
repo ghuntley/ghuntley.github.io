@@ -4,6 +4,12 @@ date: '2016-07-04 01:31:00'
 layout: post
 draft: true
 ---
+# iOS
+
+# Android
+* https://androidbycode.wordpress.com/2015/02/14/goodbye-launcher-drawables-hello-mipmaps/
+
+
 # Addins
 * Manage addins via http://sketchtoolbox.com/
 * Use this to export out assets https://github.com/geertwille/sketch-export-assets
