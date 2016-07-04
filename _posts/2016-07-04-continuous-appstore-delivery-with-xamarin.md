@@ -1,6 +1,6 @@
 ---
 title: Continuous AppStore delivery with Xamarin
-date: '2016-07-04 00:46:00'
+date: '2016-07-04 00:00:00'
 layout: post
 draft: true
 ---
