@@ -1,0 +1,9 @@
+---
+title: Continuous AppStore delivery with Xamarin
+date: '2016-07-04 00:46:00'
+layout: post
+draft: true
+---
+https://tisunov.github.io/2015/11/06/automating-app-store-screenshots-generation-with-fastlane-snapshot-and-sketch.html
+http://sketchtoappstore.com/
+https://github.com/MengTo/AppStoreSketch
