@@ -4,6 +4,18 @@ date: '2016-07-04 06:35:00'
 layout: post
 draft: true
 ---
+# Rules of thumb
+
+https://developer.xamarin.com/guides/xamarin-forms/working-with/images/
+
+beachImage.Source =  Device.OnPlatform(
+            iOS: ImageSource.FromFile("Images/waterfront.jpg"),
+            Android:  ImageSource.FromFile("waterfront.jpg"),
+            WinPhone: ImageSource.FromFile("Images/waterfront.png"));
+
+NOTE: as discussed above, to use the same image filename across all platforms the name must be valid on all platforms. Android drawables have naming restrictions – only lowercase letters, numbers, underscore, and period are allowed – and for cross-platform compatibility this must be followed on all the other platforms too. The example filename **waterfront.png** follows the rules, but examples of invalid filenames include "water front.png", "WaterFront.png", "water-front.png", and "wåterfront.png". 
+
+
 # Android
 
 Note: Place all your launcher icons in the res/mipmap-[density]/ folders, rather than the res/drawable-[density]/ folders. The Android system retains the resources in these density-specific folders, such as mipmap-xxxhdpi, regardless of the screen resolution of the device where your app is installed. This behavior allows launcher apps to pick the best resolution icon for your app to display on the home screen. For more information about using the mipmap folders, see Managing Projects Overview.
