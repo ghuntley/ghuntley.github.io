@@ -15,6 +15,9 @@ beachImage.Source =  Device.OnPlatform(
 
 NOTE: as discussed above, to use the same image filename across all platforms the name must be valid on all platforms. Android drawables have naming restrictions – only lowercase letters, numbers, underscore, and period are allowed – and for cross-platform compatibility this must be followed on all the other platforms too. The example filename **waterfront.png** follows the rules, but examples of invalid filenames include "water front.png", "WaterFront.png", "water-front.png", and "wåterfront.png". 
 
+# Embed using Resource Dictionaries
+https://developer.xamarin.com/guides/xamarin-forms/working-with/images/
+
 
 # Android
 
