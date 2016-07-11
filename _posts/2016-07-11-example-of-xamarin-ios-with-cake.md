@@ -1,9 +1,11 @@
 ---
 title: Example of Xamarin iOS with Cake
 date: '2016-07-11 00:00:00'
+categories: xamarin ios cake devops
 layout: post
 ---
 ```csharp
+#addin "Cake.FileHelpers"
 #addin "Cake.Plist"
 
 var assemblyInfoFile = File("./src/CommonAssemblyInfo.cs");
