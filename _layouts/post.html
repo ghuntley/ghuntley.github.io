@@ -50,11 +50,13 @@ layout: default
 {% if site.show_related_posts %}
   <h3 class="related-post-title">Related Posts</h3>
   {% for post in site.related_posts %}
+  {% unless post.draft %}
     <div class="post ml2">
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
         <h4 class="post-title">{{ post.title }}</h4>
         <p class="post-summary">{{ post.summary }}</p>
       </a>
     </div>
+  {% endunless %}
   {% endfor %}
 {% endif %}
