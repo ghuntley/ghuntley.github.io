@@ -1,6 +1,7 @@
 ---
 title: Example of Xamarin Android with Cake
 date: '2016-07-11 00:00:00'
+categories: xamarin android cake devops
 layout: post
 ---
 ```csharp
