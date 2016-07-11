@@ -13,7 +13,7 @@ var plistFile = File("./src/MyCoolApplication.iOS/Info.plist");
 var projectFile = File("./src/MyCoolApplication.iOS/MyCoolApplication.iOS.csproj");
 var solutionFile = File("./src/MyCoolApplication.sln");
 
-// should MSBuild & GitLink treat any errors as warnings.
+// should MSBuild treat any errors as warnings.
 var treatWarningsAsErrors = "false";
 
 // Parse release notes
