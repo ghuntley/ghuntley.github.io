@@ -8,7 +8,6 @@ layout: post
 #addin "Cake.FileHelpers"
 #addin "Cake.AndroidAppManifest"
 
-
 var manifestFile = File("./src/MyCoolApplication.Droid/Properties/AndroidManifest.xml");
 var projectFile = File("./src/MyCoolApplication.Droid/MyCoolApplication.Droid.csproj");
 var solutionFile = File("./src/MyCoolApplication.sln");
