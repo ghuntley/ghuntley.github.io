@@ -8,7 +8,7 @@ draft: true
 #addin "Cake.Plist"
 
 var assemblyInfoFile = File("./src/CommonAssemblyInfo.cs");
-var plistFile = File("./src/MyCoolApplication.iOS/Info.plist);
+var plistFile = File("./src/MyCoolApplication.iOS/Info.plist");
 var projectFile = File("./src/MyCoolApplication.iOS/MyCoolApplication.iOS.csproj");
 var solutionFile = File("./src/MyCoolApplication.sln);
 
