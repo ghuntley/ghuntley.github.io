@@ -2,7 +2,6 @@
 title: Example of Xamarin iOS with Cake
 date: '2016-07-11 00:00:00'
 layout: post
-draft: true
 ---
 ```csharp
 #addin "Cake.Plist"
