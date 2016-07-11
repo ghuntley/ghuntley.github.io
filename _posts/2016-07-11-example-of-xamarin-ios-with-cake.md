@@ -105,6 +105,5 @@ Task("RestorePackages")
     RestorePackages(solutionFile);
 });
 
-
 RunTarget(build);
 ```
