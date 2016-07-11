@@ -1,6 +1,6 @@
 ---
 title: Example of Xamarin iOS with Cake
-date: '2016-07-11 02:15:00'
+date: '2016-07-11 00:00:00'
 layout: post
 draft: true
 ---
@@ -11,6 +11,9 @@ var assemblyInfoFile = File("./src/CommonAssemblyInfo.cs");
 var plistFile = File("./src/MyCoolApplication.iOS/Info.plist);
 var projectFile = File("./src/MyCoolApplication.iOS/MyCoolApplication.iOS.csproj");
 var solutionFile = File("./src/MyCoolApplication.sln);
+
+// should MSBuild & GitLink treat any errors as warnings.
+var treatWarningsAsErrors = "false";
 
 // Parse release notes
 var releaseNotes = ParseReleaseNotes("./RELEASENOTES.md");
@@ -40,13 +43,13 @@ Task("Build")
     DotNetBuild(projectFile, settings =>
       settings.SetConfiguration("Debug")
           .WithProperty("Platform", "iPhoneSimulator")
-          .WithProperty("OutputPath", string.Format("bin/Simulator/"))
+          .WithProperty("OutputPath", "bin/Simulator/")
           .WithProperty("TreatWarningsAsErrors", treatWarningsAsErrors));
 
     DotNetBuild(projectFile, settings =>
       settings.SetConfiguration("AppStore")
           .WithProperty("Platform", "iPhone")
-          .WithProperty("OutputPath", string.Format("bin/AppStore/"))
+          .WithProperty("OutputPath", "bin/AppStore/")
           .WithProperty("TreatWarningsAsErrors", treatWarningsAsErrors));
 });
 
