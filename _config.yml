@@ -9,7 +9,14 @@ repo_url:     "https://github.com/ghuntley/ghuntley.github.io"
 gravatar_url: "http://www.gravatar.com/avatar/23d4d2451f74764e095f15a739b68a4e"
 date_format:  "%b %-d, %Y"
 
-
+# defaults
+defaults:
+  - scope:
+        path: ""
+        type: posts
+    values:
+        categories: []
+        summary: ""
 
 # Google services
 google_verification:  "Ygi199GbO9ipejg0519FZUH5JVbWB_qIS9JOke_ulp8"
