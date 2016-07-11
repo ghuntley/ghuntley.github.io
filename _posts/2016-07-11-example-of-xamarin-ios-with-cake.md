@@ -20,6 +20,14 @@ var version = releaseNotes.Version.ToString();
 var epoch = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds;
 var semVersion = local ? string.Format("{0}.{1}", version, epoch) : string.Format("{0}.{1}", version, epoch);
 
+// Define global marcos.
+Action Abort = () => { throw new Exception("a non-recoverable fatal error occurred."); };
+
+Action<string> RestorePackages = (solution) =>
+{
+    NuGetRestore(solution);
+};
+
 Task("Build")
     .IsDependentOn("RestoreAssets")
     .IsDependentOn("RestoreComponents")
