@@ -13,7 +13,7 @@ var manifestFile = File("./src/MyCoolApplication.Droid/AndroidManifest.xml");
 var projectFile = File("./src/MyCoolApplication.Droid/MyCoolApplication.Droid.csproj");
 var solutionFile = File("./src/MyCoolApplication.sln");
 
-// should MSBuild & GitLink treat any errors as warnings.
+// should MSBuild treat any errors as warnings.
 var treatWarningsAsErrors = "false";
 
 // Parse release notes
