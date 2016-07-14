@@ -14,7 +14,7 @@ core concepts for creating a cake addin - a) cake aliases b) cake context is jus
 
 # Testing
 * How to set the console output in a fixture so the runner succeeds without having to actually run the tool.
-
+* Fixtures can have properties, use these to set command line arguments.
 ## Test Cases
 * Check tool fails if not found.
 * Check tool succeeds if tool is found.
@@ -27,4 +27,8 @@ core concepts for creating a cake addin - a) cake aliases b) cake context is jus
 ## Packages
 * Install `Cake.Testing`
 * Install `Xunit`
-* 
+
+
+# How to add the addin to the website gallery
+
+https://github.com/cake-build/website/pull/107
