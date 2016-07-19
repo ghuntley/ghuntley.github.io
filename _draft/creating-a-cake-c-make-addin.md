@@ -10,6 +10,7 @@ core concepts for creating a cake addin - a) cake aliases b) cake context is jus
 
 # Add-in
 * Explain how `Aliases`, `Runner`, `Settings` works.
+* Explain how to auto-import your namespaces into Cake.
 * You may need a base `Settings` and define child settings i.e. `"app.exe --globalSettings run --runSettings"` for the TaskRunner
 
 # Testing
@@ -32,3 +33,4 @@ core concepts for creating a cake addin - a) cake aliases b) cake context is jus
 # How to add the addin to the website gallery
 
 https://github.com/cake-build/website/pull/107
+
