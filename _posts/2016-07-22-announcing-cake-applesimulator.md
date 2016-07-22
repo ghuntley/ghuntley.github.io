@@ -1,6 +1,6 @@
 ---
 title: Announcing Cake.AppleSimulator
-date: '2016-07-22 12:53:00'
+date: '2016-07-22 00:00:00'
 categories:
 - ios
 - xamarin
