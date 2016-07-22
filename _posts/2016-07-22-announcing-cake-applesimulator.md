@@ -49,7 +49,7 @@ void LaunchAppleSimulator(string deviceIdentifier)
 void ShutdownAllSimulators();
 ```
 
-### List Defined Simulators
+### List defined simulators
 
 ```csharp
 IReadonlyList<AppleSimulator> ListAppleSimulators();
@@ -64,7 +64,7 @@ public sealed class AppleSimulator
 }
 ```
 
-### List Defined Simulator Pairings
+### List defined simulator pairings
 
 ```csharp
 IReadonlyList<AppleSimulator> ListAppleSimulatorPairs();
@@ -93,7 +93,7 @@ public sealed class AppleSimulatorPairedWatch
 ```
 
 
-### List Installed Simulator Runtimes
+### List installed simulator runtimes
 ```csharp
 IReadonlyList<AppleSimulatorRuntime> ListAppleSimulatorRuntimes();
 
@@ -107,7 +107,7 @@ public sealed class AppleSimulatorRuntime
 }
 ```
 
-### List Installed Simulator Devicetypes
+### List installed simulator devicetypes
 ```csharp
 IReadonlyList<AppleSimulatorDeviceType> ListAppleSimulatorDeviceTypes();
 
@@ -118,8 +118,7 @@ public sealed class AppleSimulatorDeviceType
 }
 ```
 
-## The Future
-
+## The future
 The infrastructure for the following is in place but not implemented, open an issue on GitHub, discuss and then send in a PR. Cheers!
 
 * Add video/photos to asset libary.
