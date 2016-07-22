@@ -3,6 +3,13 @@ title: Announcing Cake.AppleSimulator
 date: '2016-07-22 12:53:00'
 categories:
 - ios
+- xamarin
+- cakebuild
+- devops
+- simctl
+- apple
+- tvos
+- watchos
 summary: ''
 layout: post
 ---
