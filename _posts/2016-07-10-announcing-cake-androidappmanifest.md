@@ -1,7 +1,7 @@
 ---
 title: Announcing Cake.AndroidAppManifest
 date: '2016-07-10 23:36:00'
-categories: xamarin android manifest cake
+categories: xamarin android manifest cakebuild
 layout: post
 ---
 A [Cake Build](https://www.dotnetfoundation.org/blog/cake-welcome) addin for [de]serializing and updating an Android AppManifest is now available via [NuGet](https://www.nuget.org/packages/Cake.AndroidAppManifest/) or [GitHub](https://github.com/ghuntley/Cake.AndroidAppManifest/).
