@@ -1,7 +1,7 @@
 ---
 title: Example of Xamarin iOS with Cake
 date: '2016-07-11 00:00:00'
-categories: xamarin ios cake devops
+categories: xamarin ios cakebuild devops
 layout: post
 ---
 ```csharp
