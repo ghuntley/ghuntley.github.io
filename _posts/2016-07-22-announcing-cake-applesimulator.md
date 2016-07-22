@@ -8,7 +8,7 @@ layout: post
 ---
 A [Cake Build](https://www.dotnetfoundation.org/blog/cake-welcome) addin for managing (simctl) Apple iOS/watchOS/TV simulators is now available via [NuGet](https://www.nuget.org/packages/Cake.AppleSimulator/) or [GitHub](https://github.com/ghuntley/Cake.AppleSimulator/).
 
-<video autoplay="true" controls="" loop="true" poster="https://pbs.twimg.com/tweet_video_thumb/CnyRVknWAAAWpsA.jpg"><source src="https://pbs.twimg.com/tweet_video/CnyRVknWAAAWpsA.mp4" type="video/mp4"><div class="_3tixQkQf"><img src="https://pbs.twimg.com/tweet_video_thumb/CnyRVknWAAAWpsA.jpg"><span class="_1rwV18JF">Your browser does not support playback of this video.</span></div></video>
+<video autoplay="true" controls="" loop="true" poster="https://pbs.twimg.com/tweet_video_thumb/CnyRVknWAAAWpsA.jpg" width="700"><source src="https://pbs.twimg.com/tweet_video/CnyRVknWAAAWpsA.mp4" type="video/mp4"><div class="_3tixQkQf"><img src="https://pbs.twimg.com/tweet_video_thumb/CnyRVknWAAAWpsA.jpg"><span class="_1rwV18JF">Your browser does not support playback of this video.</span></div></video>
 
 ## Installation
 
