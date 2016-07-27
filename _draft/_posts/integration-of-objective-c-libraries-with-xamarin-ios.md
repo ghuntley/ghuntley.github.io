@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, SDStatusBarManagerBluetoothState)
 
 # ObjectiveC
  - Constructors in objective c is done via instance methods that follow a naming convention (`initWithString(xxxx`))
- - 
+ - `+(NSArray*) getAllBeans` - means that it is a static method because of the plus sign.
 
 # Datatypes
 Objective-C
