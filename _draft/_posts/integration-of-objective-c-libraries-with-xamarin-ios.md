@@ -19,6 +19,8 @@ Write tests:
 - Subclass ApiCtorInitTest
 
 ```csharp
+// doing this will ensure that every method that is defined can be invoked
+
 [TestFixture]
 public class BindingCtorTest : ApiCtorInitTest {
   protected override Assembly Assembly {
