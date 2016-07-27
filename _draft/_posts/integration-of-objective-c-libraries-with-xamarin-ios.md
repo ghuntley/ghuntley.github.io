@@ -20,6 +20,7 @@ layout: post
 
 
 # Extension Methods
+* Also known as categories
 * https://stackoverflow.com/questions/2159034/extension-methods-in-objective-c
 * https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html#//apple_ref/doc/uid/TP40011210-CH6-SW1
 
