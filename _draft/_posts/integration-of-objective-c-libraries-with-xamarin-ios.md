@@ -9,6 +9,11 @@ categories:
 summary: ''
 layout: post
 ---
+
+# Arrays
+* NSArray represents arrays, they are untyped and have no code completion
+* When beinging, use strong types instead i.e. "NSArray" would become "UIView []" - look at Objc documentation to work this out.
+
 # Core Type Mappings
 
 | Objective-C             | C#                           |
