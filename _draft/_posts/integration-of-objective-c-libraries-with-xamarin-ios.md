@@ -14,7 +14,7 @@ layout: post
 |                         | Objective-C                     | C#                                                    | Mapping Result                         |
 |-------------------------|---------------------------------|-------------------------------------------------------|----------------------------------------|
 | Class Declaration       | ```@interface Foo : Bar```      | ```[BaseType( typeof (Bar))] interfaceFoo```          | C# class                               |
-| Class Adopting Protocol | ```@inteface Foo : Bar <Pro>``` | ```[BaseType (typeof (Bar))] interface Foo : Pro``    | C# class with inlined protocol methods |
+| Class Adopting Protocol | ```@inteface Foo : Bar <Pro>``` | ```[BaseType (typeof (Bar))] interface Foo : Pro```    | C# class with inlined protocol methods |
 | Protocol                | ```@protocol Foo <Bar>```       | ```[BaseType (typeof (Bar))] [Model] interface Foo``` | C# class with methods to override      |
 | Category                | ```@interface Foo(Cute)```      | ```[BaseType(typeof(Foo))] interface Cute```          | C# extensions method class             |
 
