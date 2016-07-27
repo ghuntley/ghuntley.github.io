@@ -19,6 +19,12 @@ Objective-C
 * Adding C# type information to a dynamic language (Obj-C).
 * Convert C _DEFINES_ into ENUMS.
 * Translate Objective-C idioms into C# idoms.
+* Rename Objective-C methods into methods that conform with the .NET framework design guidelines.
+* 
 
+
+# Reading
+* https://msdn.microsoft.com/en-us/library/ms229042(v=vs.110).aspx
+* 
 # Watching
 * https://youtu.be/DV7cGR0ySgo
