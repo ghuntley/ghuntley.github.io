@@ -21,6 +21,9 @@ Objective-C
 * Translate Objective-C idioms into C# idoms.
 * Rename Objective-C methods into methods that conform with the .NET framework design guidelines.
 
+# Enums
+* Exposed in Objective-C as constants, need converting to C# enum idoims.
+
 
 # Enumerations and Structures
 
