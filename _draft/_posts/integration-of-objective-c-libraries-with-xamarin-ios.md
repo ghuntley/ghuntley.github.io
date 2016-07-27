@@ -9,6 +9,22 @@ categories:
 summary: ''
 layout: post
 ---
+
+# Objective-C Property Selectors
+
+Assume the property ```@property (readwrite) int foo;```
+
+Objective-C:
+* The property is read/write
+* The return type is int.
+* The selector (pair!) is "foo" (get operations) and "setFoo:") (set operations)
+
+In C# IDL:
+```csharp
+[Export ("foo")]
+int Foo { get; set; }
+```
+
 # Objective-C Method Selectors
 
 ## Example 1
