@@ -9,6 +9,21 @@ categories:
 summary: ''
 layout: post
 ---
+# Objective-C Method Selectors
+
+Assume the method ```(float) getNumber)```
+
+Objective-C:
+* "-" means it is an instance method
+* The return type is float
+* The selector name is "getNumber"
+
+C# IDL:
+
+```csharp
+[Export("getNumber")]
+float GetNumber();```
+
 # Class Declarations
 
 |                         | Objective-C                     | C#                                                    | Mapping Result                         |
