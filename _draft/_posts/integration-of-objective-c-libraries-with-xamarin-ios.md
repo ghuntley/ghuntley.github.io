@@ -22,8 +22,9 @@ layout: post
 * Binding Classes
   * Exactly the same as C# classes  
 * Binding Protocols
-  * Are like C# interfaces, except they have optional methods (i.e. don't have to implement the entire contract)
+  * Are like C# interfaces, except they have optional methods (i.e. don't have to implement the entire contract) which makes them weak interfaces.
   * C# doesn't like optional methods on an inferface but can be worked around.
+  
   
 * Methods, PRoperties
  * Type mappings
