@@ -20,7 +20,12 @@ Objective-C
 * Convert C _DEFINES_ into ENUMS.
 * Translate Objective-C idioms into C# idoms.
 * Rename Objective-C methods into methods that conform with the .NET framework design guidelines.
-* 
+
+
+# Enumerations and Structures
+
+# Interface Definition
+
 
 
 # Reading
