@@ -11,7 +11,11 @@ layout: post
 ---
 # Basics of Bindings
 * Binding Classes
+  * Exactly the same as C# classes  
 * Binding Protocols
+  * Are like C# interfaces, except they have optional methods (i.e. don't have to implement the entire contract)
+  * C# doesn't like optional methods on an inferface but can be worked around.
+  
 * Methods, PRoperties
  * Type mappings
  * Arrays
@@ -19,6 +23,7 @@ layout: post
 * Delegate classses (and events)
 * Exposing Weak and Strong Types
 * Binding Blocks
+  * Blocks are like callbacks in C# 
 
 # Example
 
