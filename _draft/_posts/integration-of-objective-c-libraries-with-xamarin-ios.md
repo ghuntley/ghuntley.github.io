@@ -11,6 +11,7 @@ layout: post
 ---
 # Objective-C Method Selectors
 
+## Example 1
 Assume the method ```(float) getNumber)```
 
 Objective-C:
@@ -23,6 +24,22 @@ C# IDL:
 ```csharp
 [Export("getNumber")]
 float GetNumber();```
+
+## Example 2
+Assumbe the following method ```+(float) add:(int) first and:(int) second;```
+
+Objective-C:
+* "+" means it is a static method
+* The return type is float
+* Takes two int arguments
+* Selector name is "add:and:"
+
+C# IDL
+
+```csharp
+[Export("add:and:")]
+float Add (int first, int second)
+```
 
 # Class Declarations
 
