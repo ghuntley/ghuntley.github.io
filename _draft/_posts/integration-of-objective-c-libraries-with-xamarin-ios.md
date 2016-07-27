@@ -61,6 +61,8 @@ Objective-C
 
 # Interface Definition
 
+# Concepts
+* Zero-copy marshalling (i.e. use existing pointers in memory, no need to copy data)
 
 
 # Reading
