@@ -23,10 +23,13 @@ C# IDL:
 
 ```csharp
 [Export("getNumber")]
-float GetNumber();```
+float GetNumber();
+```
 
 ## Example 2
 Assumbe the following method ```+(float) add:(int) first and:(int) second;```
+
+Selector is created by removing type declaration and paramater name, internally within Objective-C selectors are just strings.
 
 Objective-C:
 * "+" means it is a static method
