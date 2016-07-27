@@ -9,6 +9,21 @@ categories:
 summary: ''
 layout: post
 ---
+# Core Type Mappings
+
+| Objective-C             | C#                           |
+|-------------------------|------------------------------|
+| BOOL, GLBoolean         | bool                         |
+| NSString *              | C# string or NSString        |
+| char *                  | [PlainString] string         |
+| NSInteger, NSUInteger   | int, uint                    |
+| CGRect, CGPoint, CGSize | RectangleF, PointF, SizeF    |
+| id                      | NSObject                     |
+| SEL                     | ObjCRuntime.Selector         |
+| dispatch_queue_t        | CoreFoundation.DispatchQueue |
+| CGFloat, GLFloat        | float                        |
+
+
 
 # Unit Testing for Correctness
 
