@@ -10,10 +10,23 @@ summary: ''
 layout: post
 ---
 
-# Create Unit Tests!
+# Unit Testing for Correctness
 
+Common Problems:
+- Accidental setters, or wrong getters
+
+Write tests:
 - Subclass ApiCtorInitTest
-- 
+
+```csharp
+[TestFixture]
+public class BindingCtorTest : ApiCtorInitTest {
+  protected override Assembly Assembly {
+   get {
+    return typeof (CCAccelAmplitude).Assembly; }
+   }
+}
+```
 
 # Objective-C Property Selectors
 
