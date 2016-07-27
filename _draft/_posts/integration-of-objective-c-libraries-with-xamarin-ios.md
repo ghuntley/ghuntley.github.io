@@ -19,3 +19,6 @@ Objective-C
 * Adding C# type information to a dynamic language (Obj-C).
 * Convert C _DEFINES_ into ENUMS.
 * Translate Objective-C idioms into C# idoms.
+
+# Watching
+* https://youtu.be/DV7cGR0ySgo
