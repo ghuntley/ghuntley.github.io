@@ -33,6 +33,10 @@ typedef NS_ENUM(NSInteger, SDStatusBarManagerBluetoothState)
 +
 ```
 
+# ObjectiveC
+ - Constructors in objective c is done via instance methods that follow a naming convention (`initWithString(xxxx`))
+ - 
+
 # Datatypes
 Objective-C
 .NET
