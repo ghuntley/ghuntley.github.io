@@ -26,12 +26,16 @@ typedef NS_ENUM(NSInteger, SDStatusBarManagerBluetoothState)
 @property (assign, nonatomic, readonly) BOOL usingOverrides;
 @property (assign, nonatomic) SDStatusBarManagerBluetoothState bluetoothState;
 
+// two instance methods
 - (void)enableOverrides;
 - (void)disableOverrides;
 
+// a static method
 + (SDStatusBarManager *)sharedInstance;
 +
 ```
+
+
 
 # ObjectiveC
  - Constructors in objective c is done via instance methods that follow a naming convention (`initWithString(xxxx`))
