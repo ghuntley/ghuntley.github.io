@@ -64,6 +64,8 @@ Objective-C
 # Concepts
 * Zero-copy marshalling (i.e. use existing pointers in memory, no need to copy data)
 
+# Packaging
+* Do not need to distribute the native `libmagicbeans.a` just distribute the `libmagicbeans.dll`
 
 # Reading
 * https://msdn.microsoft.com/en-us/library/ms229042(v=vs.110).aspx
