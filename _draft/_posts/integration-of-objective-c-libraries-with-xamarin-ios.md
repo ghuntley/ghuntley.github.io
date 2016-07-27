@@ -23,7 +23,7 @@ layout: post
 | dispatch_queue_t        | CoreFoundation.DispatchQueue |
 | CGFloat, GLFloat        | float                        |
 
-
+Define NSString in C# vary rarely, used when Apple use strings as tokens - lookup in KVP dictionary, working with notifications or uitableviewcell
 
 # Unit Testing for Correctness
 
