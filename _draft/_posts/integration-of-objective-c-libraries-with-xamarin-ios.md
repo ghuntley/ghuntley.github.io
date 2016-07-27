@@ -9,6 +9,8 @@ categories:
 summary: ''
 layout: post
 ---
+# Distributing Bindings
+* The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a
 
 # Arrays
 * NSArray represents arrays, they are untyped and have no code completion
