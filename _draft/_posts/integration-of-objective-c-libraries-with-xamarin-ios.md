@@ -9,6 +9,17 @@ categories:
 summary: ''
 layout: post
 ---
+# Basics of Bindings
+* Binding Classes
+* Binding Protocols
+* Methods, PRoperties
+ * Type mappings
+ * Arrays
+ * Strings
+* Delegate classses (and events)
+* Exposing Weak and Strong Types
+* Binding Blocks
+
 # Example
 
 ```objc
