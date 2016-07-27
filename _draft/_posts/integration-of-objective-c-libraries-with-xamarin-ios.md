@@ -25,6 +25,7 @@ layout: post
 
 * Define NSString in C# vary rarely, used when Apple use strings as tokens - lookup in KVP dictionary, working with notifications or uitableviewcell
 * ID is shorthand for NSObject.
+* dispatch_queue_t is a datatype that belongs to grand central dispatch.
 
 # Unit Testing for Correctness
 
