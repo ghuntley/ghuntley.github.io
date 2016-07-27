@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, SDStatusBarManagerBluetoothState)
 - (void)enableOverrides;
 - (void)disableOverrides;
 
-// a static method
+// a static method that belongs to the type
 + (SDStatusBarManager *)sharedInstance;
 +
 ```
