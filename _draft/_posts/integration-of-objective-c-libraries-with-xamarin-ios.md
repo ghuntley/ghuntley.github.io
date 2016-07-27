@@ -18,6 +18,11 @@ layout: post
 | Protocol                | ```@protocol Foo <Bar>```       | ```[BaseType (typeof (Bar))] [Model] interface Foo``` | C# class with methods to override      |
 | Category                | ```@interface Foo(Cute)```      | ```[BaseType(typeof(Foo))] interface Cute```          | C# extensions method class             |
 
+
+# Extension Methods
+* https://stackoverflow.com/questions/2159034/extension-methods-in-objective-c
+* https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html#//apple_ref/doc/uid/TP40011210-CH6-SW1
+
 # Basics of Bindings
 * Binding Classes
   * Exactly the same as C# classes  
