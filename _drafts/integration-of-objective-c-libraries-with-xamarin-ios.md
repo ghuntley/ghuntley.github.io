@@ -15,7 +15,22 @@ Uses "smart tokens" - ie nsstring instead of string. _Anything_ that starts with
 ## Basic API
 * NSNotificationCenter takes a string + method which invokes method when notification is posted that contains a NSDictionary with the notification data.
 
+## Observing notifications
 
+You'll find a subclass on most API's that begins with ```Observe.....``...
+
+```csharp
+var obs = NSFileHandle.Notifications.ObservReadCompleition ((sender, args) => {
+     Console.WriteLine (args.AvailableData);
+     Console.WriteLine (args.UnixError);
+});
+```
+
+**Which need to be disposed of!**
+
+```csharp
+obs.Dispose();
+```
 
 # Distributing Bindings
 * The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a which simplifies distribution, bundled as resources. Contents are automatically unpacked before the final build. One DLL can be fat - meaning that it can contain x86, arm and thumb code. Idealy you should build x86 (simulator) and arm (physical device) so that the library works on simulator and device. Good libaries contains both - i.e. fat library. Gotcha - the first time you drag in a native libary it will define/specify all of the platforms found in the file but if the library updates and adds say ARMv8 - then you also need to update the c# library definition.
