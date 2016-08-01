@@ -30,6 +30,9 @@ layout: post
 
 If the framework you linking against has a dependancy, it needs to be specified in the `Frameworks` stanza. If your application/the library has an dependancy that is optional, specify it in the `WeakFrameworks` stanza. i.e. "if dept defects XXX is available, it will gracefully upgrade and provide functionality but the library will work without the dept"
 
+If you need to pass flags to the NATIVE (i.e. objectivec) linker then specify them in the `LinkerFlags` stanza.
+
+
 # Arrays
 * NSArray represents arrays, they are untyped and have no code completion
 * When beinging, use strong types instead i.e. "NSArray" would become "UIView []" - look at Objc documentation to work this out.
