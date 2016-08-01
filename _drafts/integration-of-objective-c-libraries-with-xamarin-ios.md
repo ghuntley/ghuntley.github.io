@@ -10,11 +10,32 @@ summary: ''
 layout: post
 ---
 # Distributing Bindings
-* The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a
+* The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a which simplifies distribution, bundled as resources. Contents are automatically unpacked before the final build.
+
+## Controlling linker behaviour
+* Use assembly-level attribute ```[assembly:LinkWith(...)```
+* See https://developer.xamarin.com/api/type/MonoTouch.ObjCRuntime.LinkWithAttribute/
+
+```csharp
+[assembly: LinkWith ("libGoogleAdMobAds.a", 
+             LinkTarget.Simulator | LinkTarget.ArmV7, 
+             ForceLoad = true, 
+             Frameworks = "AudioToolbox MessageUI SystemConfiguration CoreGraphics MediaPlayer StoreKit", 
+             WeakFrameworks = "AdSupport", 
+             IsCxx = true, 
+             SmartLink = true,
+             LinkerFlags = "-lz -lsqlite3")]
+[assembly: LinkerSafe]
+```
+
+If the framework you linking against has a dependancy, it needs to be specified in the `Frameworks` stanza. If your application/the library has an dependancy that is optional, specify it in the `WeakFrameworks` stanza. i.e. "if dept defects XXX is available, it will gracefully upgrade and provide functionality but the library will work without the dept"
 
 # Arrays
 * NSArray represents arrays, they are untyped and have no code completion
 * When beinging, use strong types instead i.e. "NSArray" would become "UIView []" - look at Objc documentation to work this out.
+
+# Linking Libaries
+
 
 # Core Type Mappings
 
