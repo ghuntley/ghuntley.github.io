@@ -190,6 +190,15 @@ typedef NS_ENUM(NSInteger, SDStatusBarManagerBluetoothState)
 ```
 
 
+# Binding to Global Variables
+* Bind using the `Field` attribute to c# properties
+
+```
+[Field("FooServiceKEy", "__Internal")]
+NSString ServiceKEy { get; set; }
+```
+
+Supports NSArray, NSStrint, int, long, float, double, IntPtr and System.Drawing.SizeF.
 
 # ObjectiveC
  - Constructors in objective c is done via instance methods that follow a naming convention (`initWithString(xxxx`))
