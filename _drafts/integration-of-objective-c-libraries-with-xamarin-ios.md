@@ -10,7 +10,7 @@ summary: ''
 layout: post
 ---
 # Distributing Bindings
-* The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a which simplifies distribution, bundled as resources. Contents are automatically unpacked before the final build.
+* The dll contains, the public constract specification, contains the binding AND the native code. i.e. mycoollibrary.dll includes everything, including mycoollibrary.a which simplifies distribution, bundled as resources. Contents are automatically unpacked before the final build. One DLL can be fat - meaning that it can contain x86, arm and thumb code. Idealy you should build x86 (simulator) and arm (physical device) so that the library works on simulator and device. Good libaries contains both - i.e. fat library.
 
 ## Controlling linker behaviour
 * Use assembly-level attribute ```[assembly:LinkWith(...)```
