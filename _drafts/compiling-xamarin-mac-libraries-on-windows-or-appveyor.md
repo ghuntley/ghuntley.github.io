@@ -5,6 +5,20 @@ categories: []
 summary: ''
 layout: post
 ---
+## Introduction
+* Why this is a problem for library authors, packaging build artifacts into nupkgs from different hosts is nightmareish, advoid.
+* How this was resolved (brute force, learning slowly as you go).
+
+## Theory
+* Explain how assembly resolution works in .NET
+* Explain the various msbuild options
+* Explain the difference between xm45 and mac mobile.
+
+## How to actually do it.
+* Step by step
+
+## With thanks
+* Chris & Miguel.
 
 1. Hack csproj or deploy custom msbuild targets
 2. Compile
