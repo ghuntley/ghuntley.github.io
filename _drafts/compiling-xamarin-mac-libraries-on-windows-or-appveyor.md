@@ -13,6 +13,8 @@ layout: post
 * Explain how assembly resolution works in .NET
 * Explain the various msbuild options
 * Explain the difference between xm45 and mac mobile.
+* Explain the current problems with packaging - https://github.com/NuGet/Home/issues/2662
+
 
 ## How to actually do it.
 * Step by step
