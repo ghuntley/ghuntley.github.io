@@ -1,5 +1,5 @@
 ---
-title: Xamarin.UITest Cheat Sheet
+title: Xamarin.UITest cheat sheet
 date: '2016-08-11 01:28:00'
 categories:
 - xamarin uitest
