@@ -14,7 +14,7 @@ layout: post
 
 Despite using the Serilog exclusively server-side with event-based logging for a couple of years now, I've only just started exploring applying this theory to the domain of mobile phone applications. 
 
-After a day of playing around, my imagination is running wild at all of the possibilities:
+After a day of playing around, my imagination is [running wild at all of the possibilities](https://github.com/serilog/serilog/issues/829#issuecomment-241157512):
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/serilog?src=hash">#serilog</a> + <a href="https://twitter.com/getseq_net">@getseq_net</a> and <a href="https://twitter.com/hashtag/xamarin?src=hash">#xamarin</a> with event based, structured logging = heavenly.  <a href="https://twitter.com/nblumhardt">@nblumhardt</a> amazing. <a href="https://t.co/6DSNP25BYd">pic.twitter.com/6DSNP25BYd</a></p>&mdash; Geoffrey Huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/765744329671311361">August 17, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
