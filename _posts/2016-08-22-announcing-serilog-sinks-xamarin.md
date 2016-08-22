@@ -10,7 +10,7 @@ summary: ''
 layout: post
 ---
 
-Serilog has, for quite a time now been my favourite logging library for .NET because _unlike_ other logging libraries, Serilog is built with structured event data in mind which is incredibly powerful. 
+[Serilog](https://serilog.net) has, for quite a time now been my favourite logging library for .NET because _unlike_ other logging libraries, Serilog is built with structured event data in mind which is incredibly powerful. 
 
 Despite using the Serilog exclusively server-side with event-based logging for a couple of years now, I've only just started exploring applying this theory to the domain of mobile phone applications. 
 
