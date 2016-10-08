@@ -25,7 +25,6 @@ var epoch = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds;
 var semVersion = string.Format("{0}.{1}", version, epoch);
 
 Task("Build")
-    .IsDependentOn("RestoreAssets")
     .IsDependentOn("RestoreComponents")
     .IsDependentOn("RestorePackages")
     .IsDependentOn("UpdateAssemblyInfo")
