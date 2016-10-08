@@ -5,6 +5,7 @@ categories: xamarin android cakebuild devops
 layout: post
 ---
 ```csharp
+#addin "Cake.Xamarin"
 #addin "Cake.FileHelpers"
 #addin "Cake.AndroidAppManifest"
 
@@ -21,7 +22,7 @@ var releaseNotes = ParseReleaseNotes("./RELEASENOTES.md");
 // Get version
 var version = releaseNotes.Version.ToString();
 var epoch = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalSeconds;
-var semVersion = local ? string.Format("{0}.{1}", version, epoch) : string.Format("{0}.{1}", version, epoch);
+var semVersion = string.Format("{0}.{1}", version, epoch);
 
 Task("Build")
     .IsDependentOn("RestoreAssets")
