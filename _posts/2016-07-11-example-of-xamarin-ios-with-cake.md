@@ -99,5 +99,5 @@ Task("RestorePackages")
     NuGetRestore(solutionFile);
 });
 
-RunTarget(build);
+RunTarget("Build");
 ```
