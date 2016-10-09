@@ -79,8 +79,8 @@ Task("UpdateAndroidManifest")
     .Does (() =>
 {
     var manifest = DeserializeAppManifest(manifestFile);
-    manifest.VersionName = version.ToString();
-    manifest.VersionCode = Int32.Parse(manifest.VersionName.Replace(".", string.Empty));
+    manifest.VersionName = semVersion;
+    manifest.VersionCode = Int32.Parse(version.Replace(".", string.Empty) + epoch.ToString().Substring(epoch.ToString().Length - 6));
 
     SerializeAppManifest(manifestFile, manifest);
 });
