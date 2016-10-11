@@ -11,9 +11,12 @@ categories:
 summary: ''
 layout: post
 ---
-One of the unique things about Xamarin is the ability to share a large chunk of code between platforms. 
+One of the unique things about Xamarin is the ability to share a large chunk of code between all of the mobile platforms which provides an unique opportunity to version mobile applications as a complete unit. 
 
-This vies as I haven't seen much discussion about how to express this in Semantic Versioning (SemVer), 
+A Xamarin application typically consists of a core library where all the business logic is stored and tiny per-platform library implementations of non-portable services (i.e. `CoreLocationService : ILocationService`) and finally
+
+
+
 
 .NET Core is a platform of NuGet packages, of frameworks and distributed as a unit. Each of these platform layers can be versioned separately for product agility and to accurately describe product changes. While there is significant versioning flexibility, there is a desire to version the platform as a unit to make the product easier to understand.
 
@@ -29,7 +32,7 @@ MAJOR.MINOR.PATCH.META
 
 **MINOR when:**
 
-- any shared logic change (i.e. changes in portable class library)
+- any shared logic change (i.e. changes in portable class library) that isn't related to the user interface.
 
 **PATCH when:**
 
