@@ -13,7 +13,7 @@ layout: post
 ---
 One of the unique things about Xamarin is the ability to share large chunks of code between all of the mobile platforms. This provides an unique opportunity to version mobile applications as a complete unit reglardless of the destination app store or mobile platform. 
 
-A Xamarin application typically consists of a core library where all the business logic is stored and tiny per-platform library implementations of non-portable services (i.e. `CoreLocationService : ILocationService`) and finally the actual application's itself.
+A Xamarin application typically consists of a core library where all the business logic is stored and tiny per-platform library implementations of non-portable services (i.e. `CoreLocationService : ILocationService`) and finally the actual applications itself.
 
 Which can be expressed using the <a href="http://semver.org/">Semantic Versioning (SemVer)</a> standard as follows:
 
@@ -26,7 +26,7 @@ MAJOR.MINOR.PATCH.META
 
 ## Decision Tree
 
-When determining what to increment when there are multiple changes, choose the highest kind of change and reset the suffix numbers back to zero.
+When determining what to increment when there are multiple changes, choose the highest kind of change and reset the suffix numbers back to zero. The MAJOR number is owned by the business and should only be incremented as directed as per your sales and marketing plan.
 
 **MAJOR when:**
 
@@ -38,11 +38,10 @@ When determining what to increment when there are multiple changes, choose the h
 
 **PATCH when:**
 
-- any user interface change (i.e. pixel pushing existing or adding new ui)
-- any core application change (i.e. upgrading analytics dependency) 
+- any non-portable user interface change (i.e. pixel pushing native ui or changing custom renderer)
+- any core application change (i.e. upgrading platform analytics dependency) 
 - any platform service change (i.e. `CoreLocationService` implementation of `ILocationService`)
 
 **META when:**
 
 - every time a new build is produced
-
