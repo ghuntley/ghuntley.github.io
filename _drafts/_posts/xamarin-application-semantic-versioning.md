@@ -11,12 +11,16 @@ categories:
 summary: ''
 layout: post
 ---
-One of the unique things about Xamarin is the ability to share a large chunk of code between all of the mobile platforms which provides an unique opportunity to version mobile applications as a complete unit. 
+One of the unique things about Xamarin is the ability to share large chunks of code between all of the mobile platforms. This provides an unique opportunity to version mobile applications as a complete unit reglardless of the destination app store or mobile platform. 
 
 A Xamarin application typically consists of a core library where all the business logic is stored and tiny per-platform library implementations of non-portable services (i.e. `CoreLocationService : ILocationService`) and finally the actual application's itself.
 
- The (Semantic Versioning (SemVer))[http://semver.org/] standard provides a way to express this
- 
+This can be expressed using the (Semantic Versioning (SemVer))[http://semver.org/] standard as follows:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Here&#39;s my recommendations for SemVer / versioning <a href="https://twitter.com/hashtag/Xamarin?src=hash">#Xamarin</a>. applications. &gt;$owned-by-marketing.$pcl-change.$platform-change.$buildepoch&lt;</p>&mdash; Geoffrey Huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/785657050432798720">October 11, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ## Scheme
 
 MAJOR.MINOR.PATCH.META
@@ -29,7 +33,7 @@ MAJOR.MINOR.PATCH.META
 
 **MINOR when:**
 
-- any shared logic change (i.e. changes in portable class library) that isn't related to the user interface.
+- any shared logic change (i.e. changes in portable class library) that isn't able to be shared across all plaforms
 
 **PATCH when:**
 
