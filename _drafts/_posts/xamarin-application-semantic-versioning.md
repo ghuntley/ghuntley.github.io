@@ -32,3 +32,7 @@ This vies as I haven't seen much discussion about how to express this in Semanti
 - any user interface change (i.e. pixel pushing existing or adding new ui)
 - any core application change (i.e. upgrading analytics dependency) 
 - any platform service change (i.e. `CoreLocationService` implementation of `ILocationService`)
+
+**META when:**
+
+- every time a new build is produced
