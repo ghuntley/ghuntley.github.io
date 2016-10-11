@@ -1,5 +1,5 @@
 ---
-title: Xamarin Application Semantic Versioning
+title: Semantic Versioning of Xamarin Applications
 date: '2016-10-11 01:54:00'
 categories:
 - xamarin
