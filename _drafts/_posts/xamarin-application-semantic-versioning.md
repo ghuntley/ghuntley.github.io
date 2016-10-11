@@ -28,7 +28,6 @@ MAJOR.MINOR.PATCH.META
 
 When determining what to increment when there are multiple changes, choose the highest kind of change and reset the suffix numbers back to zero.
 
-
 **MAJOR when:**
 
 - directed by the business as per your sales and marketing strategy
