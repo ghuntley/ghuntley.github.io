@@ -33,7 +33,6 @@ MAJOR.MINOR.PATCH.META
 
 **PATCH when:**
 
-- reset to 0 after **MINOR** or **MAJOR** change
 - any user interface change (i.e. pixel pushing existing or adding new ui)
 - any core application change (i.e. upgrading analytics dependency) 
 - any platform service change (i.e. `CoreLocationService` implementation of `ILocationService`)
