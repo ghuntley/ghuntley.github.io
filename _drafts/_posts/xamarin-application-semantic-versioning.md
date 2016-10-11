@@ -20,12 +20,14 @@ Which can be expressed using the <a href="http://semver.org/">Semantic Versionin
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Here&#39;s my recommendations for SemVer / versioning <a href="https://twitter.com/hashtag/Xamarin?src=hash">#Xamarin</a>. applications. &gt;$owned-by-marketing.$pcl-change.$platform-change.$buildepoch&lt;</p>&mdash; Geoffrey Huntley (@GeoffreyHuntley) <a href="https://twitter.com/GeoffreyHuntley/status/785657050432798720">October 11, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 ## Scheme
 
 MAJOR.MINOR.PATCH.META
 
 ## Decision Tree
+
+When determining what to increment when there are multiple changes, choose the highest kind of change and reset the suffix numbers back to zero.
+
 
 **MAJOR when:**
 
@@ -44,3 +46,4 @@ MAJOR.MINOR.PATCH.META
 **META when:**
 
 - every time a new build is produced
+
