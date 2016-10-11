@@ -17,6 +17,10 @@ This vies as I haven't seen much discussion about how to express this in Semanti
 
 .NET Core is a platform of NuGet packages, of frameworks and distributed as a unit. Each of these platform layers can be versioned separately for product agility and to accurately describe product changes. While there is significant versioning flexibility, there is a desire to version the platform as a unit to make the product easier to understand.
 
+## Scheme
+
+MAJOR.MINOR.PATCH.META
+
 ## Decision Tree
 
 **MAJOR when:**
