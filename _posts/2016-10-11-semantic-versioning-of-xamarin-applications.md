@@ -22,7 +22,7 @@ Which can be expressed using the <a href="http://semver.org/">Semantic Versionin
 
 ## Scheme
 
-MAJOR.MINOR.PATCH.META
+MAJOR.MINOR.PATCH.META aka BUSINESS.NETSTANDARD/PCL.PLATFORM.BUILDSTAMP
 
 ## Decision Tree
 
