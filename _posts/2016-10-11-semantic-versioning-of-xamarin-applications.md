@@ -34,7 +34,7 @@ When determining what to increment when there are multiple changes, choose the h
 
 **MINOR when:**
 
-- any shared logic change (i.e. changes in portable class library) that isn't able to be shared across all plaforms
+- any shared logic change (i.e. changes in portable class library) that is able to be shared across all plaforms
 
 **PATCH when:**
 
