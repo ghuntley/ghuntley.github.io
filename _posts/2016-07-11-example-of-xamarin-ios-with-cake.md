@@ -5,6 +5,13 @@ categories: xamarin ios cakebuild devops
 layout: post
 ---
 ```csharp
+
+// needed to get 'dynamic' to work (Cake.Plist)
+#reference "Microsoft.CSharp.dll"
+
+// then run it with the '-experimental' flag parameter, e.g. 
+// .\build.ps1 -script mycoolapp.iOS.cake -experimental
+
 #addin "Cake.Xamarin"
 #addin "Cake.FileHelpers"
 #addin "Cake.Plist"
