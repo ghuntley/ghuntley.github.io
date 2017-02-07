@@ -7,7 +7,6 @@ categories:
 - reactiveui
 summary: ''
 layout: post
-draft: true
 ---
 We are going to start holding virtual meetups every month using either Google Hangouts or Skype for Business. Everyone is invited to participate. We will use this forum to teach the concepts and thought process behind functional reactive programming/the reactive extensions/reactiveui and share the roadmap/opportunities for community members to get started with open source.
 
