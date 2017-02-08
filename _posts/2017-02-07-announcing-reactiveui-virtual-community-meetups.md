@@ -20,4 +20,4 @@ We meet every 2nd tuesday of the month at 08:00am AEST (Sydney, Australia)
 
 The first meetup is scheduled for the 14th of Feb at 08:00 AM AEST. The session will be a retrospective and planning for the future, followed by questions from the community.
 
-For more information, visit [this repository on GitHub](github.com/reactiveui/meetups) and click on "Star" aka "Watch This Repository" to be automatically notified about upcoming meetups.
+For more information, visit [this repository on GitHub](github.com/reactiveui/meetups). Click on "Star" and "Watch This Repository" to be automatically notified about upcoming meetups.
