@@ -75,7 +75,8 @@ category_dir: categories
 sass:
   compressed: true
 
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
