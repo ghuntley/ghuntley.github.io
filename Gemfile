@@ -15,6 +15,6 @@ gem 'guard-jekyll-plus'
 gem 'guard-livereload'
 
 # https://github.com/ffi/ffi/issues/461
-gem 'ffi',
-	git: 'git://github.com/ffi/ffi.git',
-	branch: :elcapt
+gem 'ffi'
+#	git: 'git://github.com/ffi/ffi.git',
+#	branch: :elcapt
